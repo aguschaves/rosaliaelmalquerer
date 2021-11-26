@@ -1,0 +1,596 @@
+/*tipografias*/
+@font-face {
+    font-family: "monk-ghotic";
+    src: url(../assets/fuentes/Monk-Gothic.ttf);
+}
+@font-face {
+    font-family: "cabinet-grotesk";
+    src: url(../assets/fuentes/CabinetGrotesk-Regular.otf);
+}
+@font-face {
+    font-family: "rosario";
+    src: url(../assets/fuentes/Rosario-Regular.ttf);
+}
+@font-face {
+    font-family:"Mara";
+    src: url(../assets/fuentes/Marags├ó-Display.otf);
+}
+
+/*propiedades q modifiquen en general*/
+
+a {
+    text-decoration: none; 
+}
+
+ul {
+        list-style-type: none;
+}
+
+.parallax {
+    background-image: url(../assets/imagenes/portada-inicio.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+.colorLectura {
+    color: #FCEAD4;
+    font-family: "rosario";
+    font-weight: normal; 
+}
+
+
+/*vista desktop*/
+/*css inicio*/
+/*grid*/
+.grilla {
+    display: grid;
+    grid-template-areas: 
+    "navIzq navIzq header navDer navDer"
+    "main main main main main"
+    "footer footer footer footer footer";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 838px 2670px 100px;
+    grid-column-gap: 16px;
+    grid-row-gap: 8px; 
+} 
+
+header {
+    grid-area: header;
+    width: 100%;
+
+}
+
+.navIzq {
+    grid-area: navIzq;
+}
+
+.navDer {
+    grid-area: navDer;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+ul {
+    grid-area: ul;
+}
+
+.flexHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoIndex {
+    display: flex;
+    justify-content: center;
+}
+
+.barraNavIzq {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline-start: 20px;
+}
+
+.barraNavDer {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline-start: 0px;
+    padding-block-end: 20px;
+}
+
+li {
+padding: 20px;
+}
+
+.contenidoTitulo {
+    color: #F8B133;
+    text-align: center;
+    font-size: 150pt;
+    font-family: "monk-ghotic";
+    font-kerning: none;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.tituloANH {
+    margin: 20px;
+}
+
+/*cancion*/
+.flexCancion {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "rosario";
+    width: 100%;
+    height: auto;
+}
+
+.versoPosicion1 {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    margin: 96px;
+}
+
+.versoPosicion2 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin: 96px;
+}
+
+.versoPosicion3 {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.versoPosicion4 {
+    display: flex;
+    width: 1206px;
+    height: auto;
+    justify-content: flex-end;
+    margin: 96px;
+}
+
+.versoPosicion5 {
+    display: flex;
+    width: 914px;
+    height: auto;
+    justify-content: flex-end;
+    margin: 96px;
+}
+
+/*video y epigrafe*/
+
+.videpFlex {
+    display: flex;
+    margin: 150px;
+    flex-direction: column;
+}
+
+.flexVideo {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.epigrafeFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.epigrafeIndex {
+    width: 560px;
+    text-align: center;
+}
+
+/*footer*/
+
+.flexFooter {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    height: 35px;
+}
+
+.redesSociales {
+    display: flex;
+    align-content: space-between;
+}
+
+.redesWidth {
+    display: flex;
+    width: 333px;
+    align-items: space-around;
+    justify-content: center;
+}
+
+/*css biografía*/
+.parallax__2 {
+    background-image: url(../assets/imagenes/portada-biografia.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+.grillaBio {
+    display: grid;
+    grid-template-areas: 
+    "navIzq navIzq header navDer navDer"
+    "main main main main main"
+    "footer footer footer footer footer";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 150px 2800px 100px;
+    grid-column-gap: 16px;
+    grid-row-gap: 8px; 
+} 
+
+header {
+    grid-area: header;
+    width: 100%;
+}
+
+.navIzq {
+    grid-area: navIzq;
+}
+
+.navDer {
+    grid-area: navDer;
+}
+
+.main {
+    grid-area: main;
+}
+
+.flexMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNombre {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+}
+
+.textoFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+.textoUno {
+    display: flex;
+    justify-content: center;
+    width: 610px;
+    padding: 20px;
+    margin-left: 356px;
+    line-height: 30px;
+    margin-block-end: 90px;
+}
+
+.textoDos {
+    display: flex;
+    justify-content: flex-start;
+    width: 610px;
+    padding: 20px;
+    line-height: 30px;
+    margin-block-end: 90px;
+}
+
+.textoTres {
+    display: flex;
+    justify-content: center;
+    width: 610px;
+    padding: 20px;
+    margin-left: 356px;
+    line-height: 30px;
+    margin-block-end: 90px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+
+
+/*vista mobile*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    .grilla {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "navIzq navDer"
+        "main main"
+        "footer footer";
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 100px 80px 1348px 46px;
+        grid-column-gap: 8px;
+        grid-row-gap: 4px; 
+} 
+
+    .flexHeader {
+        display: flex;
+        grid-area: header;
+}
+    .navIzq {
+        grid-area: navIzq;
+}
+
+    .navDer {
+        grid-area: navDer;
+}
+
+    main {
+        grid-area: main;
+}
+
+    footer {
+        grid-area: footer;
+}
+
+.flexHeader {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    font-size: 16px;
+}
+
+.barraNavIzq {
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -21px;
+}
+
+.barraNavDer {
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.parallax {
+    background-image: url(../assets/imagenes/portada-inicio.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    width: 100%;
+    margin: auto;
+}
+
+.contenidoTitulo {
+    font-size: 42pt;
+    margin-block-start: 40px;
+    margin-block-end: 80px;
+}
+
+.flexCancion {
+    font-size: 7pt;
+    width: 100%;
+}
+
+.versoPosicion1 {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    margin: 32px;
+    margin-left: 52px;
+}
+
+.versoPosicion2 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-left: 96px;
+    margin: 20px;
+}
+
+.versoPosicion3 {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    margin: 6px;
+}
+
+.versoPosicion4 {
+    display: flex;
+    width: 260px;
+    height: auto;
+    justify-content: flex-end;
+    margin-left: 96px;
+    margin-block-end: 40px;
+    margin-block-start: 40px;
+}
+
+.versoPosicion5 {
+    display: flex;
+    width: 229px;
+    height: auto;
+    justify-content: flex-end;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+}
+
+/*video y epigrafe*/
+
+.videpFlex{
+    display: flex;
+    margin: 150px;
+    flex-direction: column;
+}
+
+.flexVideo {
+    display: flex;
+    justify-content: center;
+    width: 305px;
+    height: auto;
+    margin-left: -122px;
+}
+
+.epigrafeFlex {
+    display: flex;
+    justify-content: center;
+    width: 305px;
+    height: auto;
+    margin-left: -122px;
+    font-size: 10pt;
+}
+
+.epigrafeIndex {
+    width: 560px;
+    text-align: center; 
+}
+.flexFooter {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 35px;
+    width: auto;
+    margin: auto;
+}
+
+.redesSociales {
+    display: flex;
+    align-content: center;
+}
+
+.redesWidth {
+    display: flex;
+    width: 83px;
+    justify-content: space-around;
+}
+
+/* css MOBILE biografia*/
+.parallax__2 {
+    background-color: black;
+    background-image: url(../assets/imagenes/portada-biografia.jpg);
+    background-position-x: initial;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    margin: auto;
+}
+
+.grillaBio {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "navIzq navDer"
+    "main main"
+    "footer footer";
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100px 80px 1477px 46px;
+    grid-column-gap: 8px;
+    grid-row-gap: 4px; 
+} 
+
+header {
+    grid-area: header;
+    width: 100%;
+
+}
+
+.navIzq {
+    grid-area: navIzq;
+}
+
+.navDer {
+    grid-area: navDer;
+}
+
+.main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.flexMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNombre {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+
+.contenidoTitulo {
+    font-size: 42pt;
+    margin-block-start: 40px;
+    margin-block-end: 23px;
+}
+
+.textoFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.textoUno {
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    padding: 20px;
+    margin-left: 3px;
+    line-height: 25px;
+    margin-block-end: -40px;
+
+}
+
+.textoDos {
+    display: flex;
+    justify-content: flex-start;
+    width: 330px;
+    padding: 20px;
+    margin-left: 3px;
+    line-height: 25px;
+    margin-block-end: -40px;
+}
+
+.textoTres {
+    display: flex;
+    justify-content: center;
+    width: 337px;
+    padding: 20px;
+    margin-left: 0px;
+    line-height: 25px;
+    margin-block-end: 10px;
+}
+
+footer {
+    grid-area: footer;
+}
+}
