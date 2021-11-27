@@ -111,6 +111,14 @@ ul {
     padding-block-end: 20px;
 }
 
+.animacionNav {
+    transition: all 1s;
+}
+
+.animacionNav:hover {
+    transform: translateY(20px);
+}
+
 li {
 padding: 20px;
 }
