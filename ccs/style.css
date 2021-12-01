@@ -40,53 +40,22 @@ ul {
     font-weight: normal; 
 }
 
+.colorLecturaNegro {
+    color:black;
+    font-family: "rosario";
+    font-weight: normal; 
+}
+
+.colorParado {
+    color: #F8B133;
+}
+
+.container {
+    margin-top: 20px;
+}
 
 /*vista desktop*/
 /*css inicio*/
-/*grid*/
-.grilla {
-    display: grid;
-    grid-template-areas: 
-    "navIzq navIzq header navDer navDer"
-    "main main main main main"
-    "footer footer footer footer footer";
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 838px 2670px 100px;
-    grid-column-gap: 16px;
-    grid-row-gap: 8px; 
-} 
-
-header {
-    grid-area: header;
-    width: 100%;
-
-}
-
-.navIzq {
-    grid-area: navIzq;
-}
-
-.navDer {
-    grid-area: navDer;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
-ul {
-    grid-area: ul;
-}
-
-.flexHeader {
-    display: flex;
-    flex-direction: row;
-}
-
 .logoIndex {
     display: flex;
     justify-content: center;
@@ -135,6 +104,7 @@ padding: 20px;
 
 .tituloANH {
     margin: 20px;
+    margin-top: 710px;
 }
 
 /*cancion*/
@@ -206,6 +176,7 @@ padding: 20px;
 .epigrafeIndex {
     width: 560px;
     text-align: center;
+    margin-top: 20px;
 }
 
 /*footer*/
@@ -215,6 +186,7 @@ padding: 20px;
     align-content: space-between;
     justify-content: center;
     height: 35px;
+    margin-bottom: 70px;
 }
 
 .redesSociales {
@@ -224,9 +196,10 @@ padding: 20px;
 
 .redesWidth {
     display: flex;
-    width: 333px;
     align-items: space-around;
     justify-content: center;
+    width: 333px;
+    height: auto;
 }
 
 /*css biografía*/
@@ -319,7 +292,55 @@ footer {
     grid-area: footer;
 }
 
+/*css el mal querer*/
+.parallax__3 {
+    background-image: url(../assets/imagenes/portada-elmalquerer.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
 
+.tituloEMQ {
+    margin-top: 70px;
+}
+
+.epigrafeEMQ {
+    color: black;
+    width: 560px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.albumFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.rowCanciones {
+    display: flex;
+    width: 1161px;
+}
+
+.cancionesTamaño {
+    width: 33%;
+    padding: 20px;
+}
+
+.tercerFilaCan {
+    position: relative;
+    left: -22px;
+}
+
+.cuartaFilaCan {
+    position: relative;
+    left: -48px;
+}
+
+.flexFooterEMQ {
+    margin-top: 120px;
+}
 
 
 
@@ -478,7 +499,7 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 35px;
+    height: auto;
     width: auto;
     margin: auto;
 }

@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosalía, El Mal Querer</title>
+        <!-- CSS BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <!-- MI CSS -->
     <link rel="stylesheet" href="../ccs/style.css">
 </head>
 <body class="parallax__3">
-    <div class="grilla">
-        <header class="flexHeader">
-            <!-- logo inicio -->
-            <div class="animacionNav">
-                <a href="../index.html" class="colorLectura lodoIndex"><img src="../assets/imagenes/logo.png" alt="inicio"></a>
-            </div>
-        </header>
-        <div class="navIzq">
+    <header class="container">
+        <div class="row">
+            <div class="col-lg-4">
             <!-- nav izquierda -->
             <nav>
                 <ul class="barraNavIzq">  
                     <li class="animacionNav"><a href="../paginas/biografia.html" class="colorLectura">BIOGRAFÍA</a></li>   
-                    <li class="animacionNav"><a href="#" class="colorLectura">EL MAL QUERER</a></li>
+                    <li class="animacionNav"><a href="#" class="colorParado">EL MAL QUERER</a></li>
                 </ul>
             </nav>
-        </div>
-        <div class="navDer">
+            </div>
+            <div class="col-lg-4 ">
+            <!-- logo home -->
+                <div class="animacionNav">
+                    <a href="../index.html" class="colorLectura logoIndex"><img src="../assets/imagenes/logo.png" alt="inicio"></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
             <!-- nav  derecha-->
             <nav>
                 <ul class="barraNavDer">  
@@ -32,20 +36,37 @@
                     <li class="animacionNav"><a href="../paginas/suscribirse.html" class="colorLectura">SUSCRIBIRSE</a></li>
                 </ul>
             </nav>
+            </div>
+        </header>
 <main>
     <!-- intro del album -->
     <section>
-        <div class="intro">
-            <h1 class=" contenido__titulo contenido__titulo__bio">El Mal Querer</h1>
-        <!-- imagen + epigrafe -->
-            <div class="intro__contenido">
-                <a href="https://open.spotify.com/album/355bjCHzRJztCzaG5Za4gq?si=hyQ9FQ66SOORtpBe4FXgQQ" target="_blank">
-                    <img src="../assets/imagenes/el mal querer gif.gif" alt="El mal querer">
-                </a><br>
-                <h3 class="epigrafe">El mal querer son 30 minutos de un álbum conceptual, una obra de arte en sí misma que está 
-                    pensada hasta el último milímetro. Es pasional, visceral, vanguardista y frenética: Rosalía 
-                    ha demostrado saber dominar a una bestia imparable y hacerla suya.
-                </h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 contenidoTitulo">
+                    <p class="contenidoTitulo tituloEMQ">El Mal Querer</p>
+                </div>
+            </div>
+        </div>
+        <!-- album imagen -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 albumFlex">
+                    <a href="https://open.spotify.com/album/355bjCHzRJztCzaG5Za4gq?si=hyQ9FQ66SOORtpBe4FXgQQ" target="_blank">
+                        <img src="../assets/imagenes/el mal querer gif.gif" alt="El mal querer">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- epigrafe -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 epigrafeFlex">
+                    <p class="epigrafeEMQ colorLectura">El mal querer son 30 minutos de un álbum conceptual, una obra de arte en sí misma que está 
+                        pensada hasta el último milímetro. Es pasional, visceral, vanguardista y frenética: Rosalía 
+                        ha demostrado saber dominar a una bestia imparable y hacerla suya.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -53,86 +74,130 @@
         <!-- lista de canciones -->
     <section>
         <!-- canciones 1,2,3 -->
-        <div class="grupo__canciones">
-            <a href="https://open.spotify.com/track/1B0BQaSRHxhI0AUlItY3LK?si=8f4c4cfdfc434837" target="_blank">
-                <img class="imagen" src="../assets/imagenes/malamente GIF.gif" alt="Malamente">
-            </a>
-            <a href="https://open.spotify.com/track/6HpgdL4zUpuyXCzvAhgR5a?si=0b716c996af14300" target="_blank">
-                <img class="imagen" src="../assets/imagenes/que no salga la luna.gif" alt="Que no salga la luna">
-            </a>
-            <a href="https://open.spotify.com/track/5r8mGKhCDIVWb3AG4hm0l0?si=5fe411c4f5724e55" target="_blank">
-                <img class="imagen" src="../assets/imagenes/00.gif" alt="Pienso en tu mirá"> 
-            </a>
-            <div class="color__lectura__canciones">
-                <p>Malamente - Cap 1: Augurio</p>
-                <p>Que no salga la luna - Cap 2: Boda</p>
-                <p>Pienso en tu mirá - Cap 3: Celos</p>
+        <div class="container">
+            <div class="row rowCanciones">
+                <div class="col-lg-12">
+                    <a href="https://open.spotify.com/track/1B0BQaSRHxhI0AUlItY3LK?si=8f4c4cfdfc434837" target="_blank">
+                        <img class="cancionesTamaño" src="../assets/imagenes/malamente GIF.gif" alt="Malamente">
+                    </a>
+                    <a href="https://open.spotify.com/track/6HpgdL4zUpuyXCzvAhgR5a?si=0b716c996af14300" target="_blank">
+                        <img class="cancionesTamaño" src="../assets/imagenes/que no salga la luna.gif" alt="Que no salga la luna">
+                    </a>
+                    <a href="https://open.spotify.com/track/5r8mGKhCDIVWb3AG4hm0l0?si=5fe411c4f5724e55" target="_blank">
+                        <img class="cancionesTamaño" src="../assets/imagenes/00.gif" alt="Pienso en tu mirá"> 
+                    </a>
+                </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                        <p class="colorLecturaNegro">Malamente - Cap 1: Augurio</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <p class="colorLecturaNegro" >Que no salga la luna - Cap 2: Boda</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                    <p class="colorLecturaNegro">Pienso en tu mirá - Cap 3: Celos</p>
+            </div>
+        </div>
+        </div>
         <!-- canciones 4,5,6 -->
-        <div class="grupo__canciones">
-            <a href="https://open.spotify.com/track/0CaiddWO1F3v4nTQGgfk9A?si=863b1e074f7d4186" target="_blank">
-                <img class="imagen" src="../assets/imagenes/de aquí no sales.gif" alt="De aquí no sales"> 
-            </a>
-            <a href="https://open.spotify.com/track/5meAAp6VRNKT4cR3CvKkfU?si=f6123100fd1f4a1f" target="_blank">
-                <img class="imagen" src="../assets/imagenes/reniego.gif" alt="Reniego"> 
-            </a>
-            <a href="https://open.spotify.com/track/1Yaw3jxKlBUXkfIo2FHG2M?si=f39b27aa8d634137" target="_blank">
-                <img class="imagen" src="../assets/imagenes/preso.gif" alt="Preso"> 
-            </a>
-            <div class="color__lectura__canciones">
-                <p>De aquí no sales - Cap 4: Disputa</p>
-                <p>Reniego - Cap 5: Lamento</p>
-                <p>Preso - Cap 6: Clausura</p>
+        <div class="container">
+            <div class="row rowCanciones">
+                <div class="col-lg-12">
+                    <a href="https://open.spotify.com/track/0CaiddWO1F3v4nTQGgfk9A?si=863b1e074f7d4186" target="_blank">
+                        <img class="cancionesTamaño" src="../assets/imagenes/de aquí no sales.gif" alt="De aquí no sales"> 
+                    </a>
+                    <a href="https://open.spotify.com/track/5meAAp6VRNKT4cR3CvKkfU?si=f6123100fd1f4a1f" target="_blank">
+                        <img class="cancionesTamaño" src="../assets/imagenes/reniego.gif" alt="Reniego"> 
+                    </a>
+                    <a href="https://open.spotify.com/track/1Yaw3jxKlBUXkfIo2FHG2M?si=f39b27aa8d634137" target="_blank">
+                        <img class="cancionesTamaño" src="../assets/imagenes/preso.gif" alt="Preso"> 
+                    </a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <p class="colorLecturaNegro">De aquí no sales - Cap 4: Disputa</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <p class="colorLecturaNegro">Reniego - Cap 5: Lamento</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <p class="colorLecturaNegro">Preso - Cap 6: Clausura</p>
             </div>
         </div>
     <!-- canciones 7,8,9 -->
-        <div class="grupo__canciones">
-            <a href="https://open.spotify.com/track/1zZ7vl1amOLI4GE5oUn0YB?si=57dee6bfceff46d8" target="_blank">
-                <img class="imagen" src="../assets/imagenes/bagdad.gif" alt="Bagdad"> 
-            </a>
-            <a href="https://open.spotify.com/track/2Sfl7odHUmG7qc8SbqUyzE?si=bb91c5573cac4d65" target="_blank">
-                <img class="imagen" src="../assets/imagenes/di mi nombre.jpg" alt="Di mi nombre">
-            <a href="https://open.spotify.com/track/0r6AxesiTSiCyJIIOpVYrv?si=c860aefa6b4446e2" target="_blank">
-                <img class="imagen" src="../assets/imagenes/nana.gif" alt="Nana">
-            </a>
-            </a>
-        <div class="color__lectura__canciones">
-            <p>Bagdad - Cap 7: Liturgia</p>
-            <p>Di mi nombre - Cap 8: Éxtasis</p>
-            <p>Nana - Cap 9: Concepción</p>
+    <div class="container">
+        <div class="row rowCanciones">
+            <div class="col-lg-12 tercerFilaCan">
+                <a href="https://open.spotify.com/track/1zZ7vl1amOLI4GE5oUn0YB?si=57dee6bfceff46d8" target="_blank">
+                    <img class="cancionesTamaño" src="../assets/imagenes/bagdad.gif" alt="Bagdad"> 
+                </a>
+                <a href="https://open.spotify.com/track/2Sfl7odHUmG7qc8SbqUyzE?si=bb91c5573cac4d65" target="_blank">
+                    <img class="cancionesTamaño" src="../assets/imagenes/di mi nombre.jpg" alt="Di mi nombre"> 
+                </a>
+                <a href="https://open.spotify.com/track/0r6AxesiTSiCyJIIOpVYrv?si=c860aefa6b4446e2" target="_blank">
+                    <img class="cancionesTamaño" src="../assets/imagenes/nana.gif" alt="Nana">
+                </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center tercerFilaCan">
+                <p class="colorLecturaNegro">Bagdad - Cap 7: Liturgia</p>
         </div>
+        <div class="col-lg-4 text-center tercerFilaCan">
+            <p class="colorLecturaNegro">Di mi nombre - Cap 8: Éxtasis</p>
         </div>
+        <div class="col-lg-4 text-center tercerFilaCan">
+            <p class="colorLecturaNegro">Nana - Cap 9: Concepción</p>
+        </div>
+    </div>
     <!-- canciones 10 y 11 -->
-        <div class="grupo__canciones">
-            <a href="https://open.spotify.com/track/5IIXMynH8cxC8is6MaqdF7?si=ceb027611bf4449d" target="_blank">
-                <img class="imagen" src="../assets/imagenes/maldición.gif" alt="Maldición">
-            </a>
-            <a href="https://open.spotify.com/track/0RhO0RV0YKyF05kZ4uQOHW?si=3765203d459146d7" target="_blank">
-                <img class="imagen" src="../assets/imagenes/a ningun hombre.gif" alt="A ningún hombre">
-            </a>
-        <div class="color__lectura__canciones">    
-            <p>Maldición - Cap 10: Cordura</p>
-            <p>A ningún hombre - Cap 11: Poder</p>
+    <div class="container">
+        <div class="row rowCanciones">
+            <div class="col-lg-12 cuartaFilaCan">
+                <a href="https://open.spotify.com/track/5IIXMynH8cxC8is6MaqdF7?si=ceb027611bf4449d" target="_blank">
+                    <img class="cancionesTamaño" src="../assets/imagenes/maldición.gif" alt="Maldición">
+                </a>
+                <a href="https://open.spotify.com/track/0RhO0RV0YKyF05kZ4uQOHW?si=3765203d459146d7" target="_blank">
+                    <img class="cancionesTamaño" src="../assets/imagenes/a ningun hombre.gif" alt="A ningún hombre">
+                </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center tercerFilaCan">
+                <p class="colorLecturaNegro">Maldición - Cap 10: Cordura</p>
+        </div>
+        <div class="col-lg-4 text-center tercerFilaCan">
+            <p class="colorLecturaNegro">A ningún hombre - Cap 11: Poder</p>
         </div>
         </div>
+    </div>
     </section>
     <!-- fin lista de canciones -->
 </main>
-<footer>
-    <section class="footer__emq">
-        <!-- logo -->
-        <div class="footer__imagen">
-            <img src="../assets/imagenes/logo-footer.png" alt="logo">   
-        </div>
+<div class="container">
+    <footer class= "row flexFooter flexFooterEMQ">
         <!-- redes sociales -->
-        <div>
-            <a href="https://www.instagram.com/rosalia.vt/" target="_blank" class="footer__redes" ><img src="../assets/imagenes/ig.png" alt="ig logo"></a>
-            <a href="https://www.facebook.com/rosalia.vt"target="_blank" class="footer__redes" ><img src="../assets/imagenes/fb.png" alt="fb logo"></a>
-            <a href="https://twitter.com/rosalia?lang=es"target="_blank" class="footer__redes"><img src="../assets/imagenes/tw.png" alt="tw logo"></a>
-            <a href="https://open.spotify.com/artist/7ltDVBr6mKbRvohxheJ9h1?si=f64o_kL5SZ6TMEBRMPtEVg" target="_blank" class="footer__redes"><img src="../assets/imagenes/spotify.png" alt="spotify"></a>
+        <div class="redesSociales col-lg-3 col-3">
+            <a class="redesWidth" href="https://www.instagram.com/rosalia.vt/" target="_blank"><img src="../assets/imagenes/ig.png" alt="ig logo"></a>
         </div>
-        </section>
-</footer>
+        <div class="redesSociales col-lg-3 col-3">
+            <a class="redesWidth" href="https://www.facebook.com/rosalia.vt"target="_blank"><img src="../assets/imagenes/fb.png" alt="fb logo"></a>
+        </div>
+        <div class="redesSociales col-lg-3 col-3">
+            <a class="redesWidth" href="https://twitter.com/rosalia?lang=es"target="_blank"><img src="../assets/imagenes/tw.png" alt="tw logo"></a>
+        </div>
+        <div class="redesSociales col-lg-3 col-3">
+            <a class="redesWidth" href="https://open.spotify.com/artist/7ltDVBr6mKbRvohxheJ9h1?si=f64o_kL5SZ6TMEBRMPtEVg" target="_blank"><img src="../assets/imagenes/spotify.png" alt="spotify"></a>
+        </div>
+    </footer>
+</div>
+</div>
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
