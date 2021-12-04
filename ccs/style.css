@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 /*tipografias*/
 @font-face {
     font-family: "monk-ghotic";
@@ -26,12 +31,10 @@ ul {
         list-style-type: none;
 }
 
-.parallax {
-    background-image: url(../assets/imagenes/portada-inicio.jpg);
-    background-position-x: initial;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
+svg {
+    fill: var(--colorDestacados);
+    width: 50px;
+    height: auto;
 }
 
 .colorLectura {
@@ -49,13 +52,27 @@ ul {
 .colorParado {
     color: #F8B133;
 }
-
-.container {
-    margin-top: 20px;
+.bgNav {
+    color: var(--colorDestacados);
 }
 
-/*vista desktop*/
-/*css inicio*/
+.navbar-expand-lg {
+    width: 100%;
+}
+.navbar-collapse {
+    width: 100%;
+}
+#navbarNavDropdown {
+    width: 100%;
+}
+/*--------------------------------VISTA DESKTOP-----------------------------------*/
+/*--------------------------------css inicio-----------------------------------*/
+.parallax {
+    background-image: url(../assets/imagenes/portada-inicio.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .logoIndex {
     display: flex;
     justify-content: center;
@@ -68,6 +85,10 @@ ul {
     justify-content: space-around;
     align-items: center;
     padding-inline-start: 20px;
+    width: 344px;
+    margin-left: 71px;
+    position: relative;
+    top: -101px;
 }
 
 .barraNavDer {
@@ -78,14 +99,23 @@ ul {
     align-items: center;
     padding-inline-start: 0px;
     padding-block-end: 20px;
+    text-decoration: none;
+    margin-right: 919px;
+    position: relative;
+    top: -92px;
+    left: 243px;
 }
 
 .animacionNav {
     transition: all 1s;
+    text-decoration: none!important;
+    color: #FCEAD4
 }
 
 .animacionNav:hover {
     transform: translateY(20px);
+    text-decoration: none!important;
+    color: #FCEAD4;
 }
 
 li {
@@ -107,6 +137,7 @@ padding: 20px;
     margin-top: 710px;
 }
 
+
 /*cancion*/
 .flexCancion {
     text-transform: uppercase;
@@ -117,39 +148,29 @@ padding: 20px;
 }
 
 .versoPosicion1 {
-    display: flex;
-    justify-content: flex-start;
     height: auto;
     margin: 96px;
 }
 
 .versoPosicion2 {
-    display: flex;
     height: auto;
-    justify-content: center;
     margin: 96px;
 }
 
 .versoPosicion3 {
-    display: flex;
     height: auto;
-    justify-content: flex-start;
     margin: 20px;
 }
 
 .versoPosicion4 {
-    display: flex;
     width: 1206px;
     height: auto;
-    justify-content: flex-end;
     margin: 96px;
 }
 
 .versoPosicion5 {
-    display: flex;
     width: 914px;
     height: auto;
-    justify-content: flex-end;
     margin: 96px;
 }
 
@@ -186,12 +207,17 @@ padding: 20px;
     align-content: space-between;
     justify-content: center;
     height: 35px;
+    margin-top: 100px;
     margin-bottom: 70px;
 }
 
+svg {
+    fill: var(--colorDestacados);
+}
 .redesSociales {
     display: flex;
     align-content: space-between;
+    fill: #F8B133;
 }
 
 .redesWidth {
@@ -202,76 +228,36 @@ padding: 20px;
     height: auto;
 }
 
-/*css biografía*/
+/*--------------------------------css biografía-----------------------------------*/
 .parallax__2 {
     background-image: url(../assets/imagenes/portada-biografia.jpg);
+    background-position-y: bottom;
     background-position-x: initial;
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
 }
-
-.grillaBio {
-    display: grid;
-    grid-template-areas: 
-    "navIzq navIzq header navDer navDer"
-    "main main main main main"
-    "footer footer footer footer footer";
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 150px 2800px 100px;
-    grid-column-gap: 16px;
-    grid-row-gap: 8px; 
-} 
-
-header {
-    grid-area: header;
-    width: 100%;
+main {
+    padding-bottom: 821px;
 }
-
-.navIzq {
-    grid-area: navIzq;
-}
-
-.navDer {
-    grid-area: navDer;
-}
-
-.main {
-    grid-area: main;
-}
-
-.flexMain {
-    display: flex;
-    flex-direction: column;
-}
-
 .mainNombre {
     display: flex;
-    margin: 80px;
-    justify-content: center;
+    margin: 80px;;
 }
 
 .textoFlex {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: auto;
     font-size: 20px;
 }
 
 .textoUno {
-    display: flex;
-    justify-content: center;
     width: 610px;
     padding: 20px;
-    margin-left: 356px;
     line-height: 30px;
     margin-block-end: 90px;
 }
 
 .textoDos {
-    display: flex;
-    justify-content: flex-start;
     width: 610px;
     padding: 20px;
     line-height: 30px;
@@ -279,11 +265,8 @@ header {
 }
 
 .textoTres {
-    display: flex;
-    justify-content: center;
     width: 610px;
     padding: 20px;
-    margin-left: 356px;
     line-height: 30px;
     margin-block-end: 90px;
 }
@@ -292,23 +275,15 @@ footer {
     grid-area: footer;
 }
 
-/*css el mal querer*/
+/*--------------------------------css el mal querer-----------------------------------*/
 .parallax__3 {
-    background-image: url(../assets/imagenes/portada-elmalquerer.jpg);
+    background-color: black;
     background-position-x: initial;
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
 }
-
-.tituloEMQ {
-    margin-top: 70px;
-}
-
 .epigrafeEMQ {
-    color: black;
-    width: 560px;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 200px;
 }
@@ -330,7 +305,7 @@ footer {
 
 .tercerFilaCan {
     position: relative;
-    left: -22px;
+    left: -56px;
 }
 
 .cuartaFilaCan {
@@ -341,87 +316,80 @@ footer {
 .flexFooterEMQ {
     margin-top: 120px;
 }
+/*--------------------------------css videos-----------------------------------*/
+.parallax__4 {
+    background-image: url(../assets/imagenes/portada-videos.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+.videos {
+    margin-block-start: 870px;
+    margin-block-end: 120px;
+}
+.videosEspacio {
+    padding: 100px;
+}
+/*--------------------------------css suscribirse-----------------------------------*/
+.parallax__5 {
+    background-image: url(../assets/imagenes/portada-suscribirse.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
 
-
-
-/*vista mobile*/
+/*--------------------------------VISTA MOBILE-----------------------------------*/
 @media only screen and (min-width: 0px) and (max-width: 768px){
-    .grilla {
-        display: grid;
-        grid-template-areas: 
-        "header header"
-        "navIzq navDer"
-        "main main"
-        "footer footer";
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 100px 80px 1348px 46px;
-        grid-column-gap: 8px;
-        grid-row-gap: 4px; 
-} 
-
-    .flexHeader {
-        display: flex;
-        grid-area: header;
-}
-    .navIzq {
-        grid-area: navIzq;
-}
-
-    .navDer {
-        grid-area: navDer;
-}
-
-    main {
-        grid-area: main;
-}
-
-    footer {
-        grid-area: footer;
-}
-
-.flexHeader {
-    display: flex;
-    width: 100%;
-    justify-content: center; 
-    font-size: 16px;
-}
-
+    :root {
+        --colorLectura: #FCEAD4;
+        --colorDestacados: #F8B133;
+        --colorNegro: black;
+        --fuenteLecturaMobile: 14px
+    }
+    svg {
+        width: 25px;
+        height: auto;
+        padding-bottom: 50PX;
+    }
+/*--------------------------------css MOBILE  inicio-----------------------------------*/
 .barraNavIzq {
     display: flex;
-    font-size: 13px;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 15px;
+    flex-direction: column;
     align-items: center;
-    margin-left: -21px;
 }
 
 .barraNavDer {
     display: flex;
-    font-size: 13px;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 15px;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
+    text-decoration: none;
 }
 
 .parallax {
     background-image: url(../assets/imagenes/portada-inicio.jpg);
-    background-position-x: initial;
+    background-position-x: center;
     background-repeat: no-repeat;
-    background-size: 375px;
+    background-size: cover;
     width: 100%;
     margin: auto;
 }
 
 .contenidoTitulo {
     font-size: 42pt;
-    margin-block-start: 40px;
+    margin-block-start: -649px;
     margin-block-end: 80px;
 }
 
 .flexCancion {
     font-size: 7pt;
-    width: 100%;
+    margin-block-start: -41px;
+    position: relative;
+    left: 12px;
+    width: 348px;
 }
 
 .versoPosicion1 {
@@ -472,20 +440,22 @@ footer {
     display: flex;
     margin: 150px;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .flexVideo {
     display: flex;
     justify-content: center;
-    width: 305px;
+    width: 355px;
     height: auto;
     margin-left: -122px;
+    margin-bottom: -18px;
 }
 
 .epigrafeFlex {
     display: flex;
     justify-content: center;
-    width: 305px;
+    width: 346px;
     height: auto;
     margin-left: -122px;
     font-size: 10pt;
@@ -515,111 +485,64 @@ footer {
     justify-content: space-around;
 }
 
-/* css MOBILE biografia*/
+/*--------------------------------css MOBILE biografía-----------------------------------*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.flexMain {
+    display: flex;
+}
 .parallax__2 {
     background-color: black;
     background-image: url(../assets/imagenes/portada-biografia.jpg);
-    background-position-x: initial;
     background-position-y: bottom;
-    background-repeat: no-repeat;
     background-size: 100%;
-    width: auto;
-    margin: auto;
 }
-
 .grillaBio {
     display: grid;
     grid-template-areas: 
     "header header"
     "navIzq navDer"
-    "main main"
+    "contenidoTitulo contenidoTitulo"
+    "textoUno textoUno"
+    "textoDos textoDos"
+    "textoTres textoTres"
     "footer footer";
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 100px 80px 1477px 46px;
-    grid-column-gap: 8px;
-    grid-row-gap: 4px; 
-} 
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px 150px 1000px 1000px 1000px 100px;
+}
 
 header {
     grid-area: header;
-    width: 100%;
-
 }
-
 .navIzq {
     grid-area: navIzq;
 }
-
 .navDer {
     grid-area: navDer;
 }
-
-.main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
-.flexMain {
-    display: flex;
-    flex-direction: column;
-}
-
-.mainNombre {
-    display: flex;
-    margin: 0px;
-    justify-content: center;
-}
-
-.contenidoTitulo {
-    font-size: 42pt;
-    margin-block-start: 40px;
-    margin-block-end: 23px;
-}
-
-.textoFlex {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    font-size: 14px;
-    text-align: center;
-}
-
 .textoUno {
-    display: flex;
-    justify-content: center;
-    width: 330px;
-    padding: 20px;
-    margin-left: 3px;
-    line-height: 25px;
-    margin-block-end: -40px;
-
+    grid-area: textoUno;
+    color: var(--colorLectura);
 }
-
 .textoDos {
-    display: flex;
-    justify-content: flex-start;
-    width: 330px;
-    padding: 20px;
-    margin-left: 3px;
-    line-height: 25px;
-    margin-block-end: -40px;
+    grid-area: textoDos;
+    color: var(--colorLectura);
 }
-
 .textoTres {
-    display: flex;
-    justify-content: center;
-    width: 337px;
-    padding: 20px;
-    margin-left: 0px;
-    line-height: 25px;
-    margin-block-end: 10px;
+    grid-area: textoTres;
+    color: var(--colorLectura);
 }
-
 footer {
     grid-area: footer;
+}
+/*--------------------------------css MOBILE VIDEOS-----------------------------------*/
+.parallax__4 {
+    background-image: url(../assets/imagenes/portada-videos.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
 }
 }
