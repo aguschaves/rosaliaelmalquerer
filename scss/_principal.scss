@@ -1,0 +1,76 @@
+.tituloANH {
+    color: #F8B133;
+    text-align: center;
+    font-size: 150pt;
+    font-family: $tipoDisplay;
+    font-kerning: none;
+    font-weight: normal;
+    margin: 20px;
+    margin-top: 680px;
+}
+/*cancion*/
+.flexCancion {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: $tipoLectura;
+    color: $colorLectura;
+    width: 100%;
+    height: auto;
+}
+.versoPosicion1 {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    margin: 96px;
+}
+.versoPosicion2 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin: 96px;
+}
+.versoPosicion3 {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.versoPosicion4 {
+    display: flex;
+    width: 1206px;
+    height: auto;
+    justify-content: flex-end;
+    margin: 96px;
+}
+.versoPosicion5 {
+    display: flex;
+    width: 914px;
+    height: auto;
+    justify-content: flex-end;
+    margin: 96px;
+}
+//video y epigrafe
+.videpFlex {
+    display: flex;
+    margin: 150px;
+    flex-direction: column;
+}
+
+.flexVideo {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.epigrafeFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.epigrafeIndex {
+    width: 560px;
+    text-align: center;
+    color: $colorLectura;
+    font-family: $tipoLectura
+}

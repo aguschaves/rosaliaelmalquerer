@@ -1,0 +1,242 @@
+/*grid*/
+.grilla {
+  display: grid;
+  grid-template-areas: "main main main main main" "footer footer footer footer footer";
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 3210px 100px;
+  grid-column-gap: 16px;
+  grid-row-gap: 8px; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
+/*tipografias*/
+@font-face {
+  font-family: "rosario";
+  src: url(../assets/fuentes/Rosario-Regular.ttf); }
+
+@font-face {
+  font-family: "monk";
+  src: url(../assets/fuentes/Monk-Gothic.ttf); }
+
+.animacionNav {
+  transition: all 1s; }
+
+.animacionNav:hover {
+  transform: translateY(20px);
+  font-style: italic; }
+
+* {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+  ul a {
+    text-decoration: none;
+    font-family: "rosario";
+    color: #FCEAD4; }
+
+.barraNavIzq {
+  font-size: 20px;
+  padding-inline-start: 20px;
+  width: 100%; }
+
+.barraNavDer {
+  font-size: 20px;
+  padding-inline-start: 0px;
+  width: 100%; }
+
+.navbar-toggler:hover {
+  text-decoration: none; }
+
+.navbar {
+  width: 100%; }
+
+.nazIzq {
+  display: flex;
+  justify-content: flex-start; }
+
+.tituloANH {
+  color: #F8B133;
+  text-align: center;
+  font-size: 150pt;
+  font-family: "monk";
+  font-kerning: none;
+  font-weight: normal;
+  margin: 20px;
+  margin-top: 680px; }
+
+/*cancion*/
+.flexCancion {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "rosario";
+  color: #FCEAD4;
+  width: 100%;
+  height: auto; }
+
+.versoPosicion1 {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  margin: 96px; }
+
+.versoPosicion2 {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin: 96px; }
+
+.versoPosicion3 {
+  display: flex;
+  height: auto;
+  justify-content: flex-start;
+  margin: 20px; }
+
+.versoPosicion4 {
+  display: flex;
+  width: 1206px;
+  height: auto;
+  justify-content: flex-end;
+  margin: 96px; }
+
+.versoPosicion5 {
+  display: flex;
+  width: 914px;
+  height: auto;
+  justify-content: flex-end;
+  margin: 96px; }
+
+.videpFlex {
+  display: flex;
+  margin: 150px;
+  flex-direction: column; }
+
+.flexVideo {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto; }
+
+.epigrafeFlex {
+  display: flex;
+  justify-content: center; }
+
+.epigrafeIndex {
+  width: 560px;
+  text-align: center;
+  color: #FCEAD4;
+  font-family: "rosario"; }
+
+svg {
+  fill: #F8B133;
+  width: 40px;
+  height: 40px; }
+
+.flexFooter {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 250px;
+  width: 100%; }
+
+.redesWidth {
+  display: flex;
+  align-items: space-around;
+  justify-content: center;
+  padding: 45px; }
+
+.parallax {
+  background-image: url(../assets/imagenes/portada-inicio.jpg);
+  background-position-x: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto; }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .grilla {
+    display: grid;
+    grid-template-areas: "titulo titulo titulo" "main main main" "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0px 1725px 150px;
+    grid-column-gap: 8px;
+    grid-row-gap: 4px; }
+  .tituloANH {
+    grid-area: titulo; }
+  main {
+    grid-area: main; }
+  footer {
+    grid-area: footer; }
+  .flexHeader {
+    display: flex; }
+  .container {
+    padding: 0px; }
+  .logo {
+    justify-content: center;
+    width: 400px;
+    margin: 0px;
+    padding: 10px; }
+  .navbar-toggler {
+    font-size: 9pt;
+    background-color: transparent; }
+  .bg-light {
+    background-color: #F8B133 !important; }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px; }
+  .logo {
+    padding: 20px; }
+  .tituloANH {
+    font-size: 54pt;
+    margin: 20px;
+    margin-top: 225px; }
+  .flexCancion {
+    font-size: 9pt; }
+  .versoPosicion1 {
+    margin: 48px;
+    width: 342px; }
+  .versoPosicion2 {
+    margin: 48px; }
+  .versoPosicion3 {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    margin: 20px; }
+  .versoPosicion4 {
+    width: 353px;
+    margin: 48px; }
+  .versoPosicion5 {
+    margin: 48px;
+    width: 276px; }
+  .videpFlex {
+    margin: 20px; }
+  .flexVideo {
+    padding: 40px; }
+  .epigrafeFlex {
+    width: 376px; }
+  .epigrafeIndex {
+    width: 315px; }
+  .flexFooter {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 100%; }
+  .redesWidth {
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    padding: 20px; }
+  svg {
+    width: 25px;
+    height: 25px; }
+  .row {
+    margin-left: 0px; } }

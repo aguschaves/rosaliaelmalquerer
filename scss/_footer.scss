@@ -1,0 +1,20 @@
+svg {
+    fill: $amarillo;
+    width: $footerWidhtD;
+    height: $footerHeightD
+}
+.flexFooter {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    width: 100%;
+}
+.redesWidth {
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    padding: 45px;
+}

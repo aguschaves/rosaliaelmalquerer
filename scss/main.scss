@@ -1,0 +1,18 @@
+@import "grid";
+//componentes principales
+@import "componentes";
+//nav
+@import "nav";
+//main
+@import "principal";
+//footer
+@import "footer";
+//padding
+.parallax {
+    background-image: url(../assets/imagenes/portada-inicio.jpg);
+    background-position-x: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+@import "mobile";
