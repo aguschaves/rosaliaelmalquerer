@@ -7,6 +7,16 @@
 @import "principal";
 //footer
 @import "footer";
+a.animacionNav {
+    color: map-get($paletaColores,amarillo) ;
+}
+a:visited { 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: none; 
+    color: map-get($paletaColores,amarillo);
+}
 //padding
 .parallax {
     background-image: url(../assets/imagenes/portada-inicio.jpg);
@@ -14,5 +24,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
+}
+.parallax__2 {
+    @extend .parallax;
+    background-image: url(../assets/imagenes/portada-biografia.jpg);
+}
+.parallax__3 {
+    @extend .parallax;
+    background-image: none;
+    background-color: black
+}
+.parallax__4 {
+    @extend .parallax;
+    background-image: url(../assets/imagenes/portada-videos.jpg);
+}
+.parallax__5 {
+    @extend .parallax;
+    background-image: url(../assets/imagenes/portada-suscribirse.jpg)
 }
 @import "mobile";

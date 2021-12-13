@@ -1,16 +1,14 @@
-* {
-    text-decoration: none;
-}
-
 ul {
     list-style-type: none;
     a {
         text-decoration: none;
-        font-family: $tipoLectura;
-        color: $colorLectura;
+        font-family: map-get($tipografias,lectura);
+        color: map-get($paletaColores,lectura);
     }
 } 
-
+.navMargin {
+    margin-top: 20px;
+}
 .barraNavIzq {
         font-size: 20px;
         padding-inline-start: 20px;
@@ -32,3 +30,6 @@ ul {
         display: flex;
         justify-content: flex-start;
     }
+.marginTop {
+    margin-top: 32px;
+}

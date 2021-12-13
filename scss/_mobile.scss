@@ -39,7 +39,7 @@
     background-color: transparent;
 }
 .bg-light {
-    background-color: $amarillo!important;
+    background-color: map-get($paletaColores,amarillo)!important;
 }
 .navbar-toggler-icon {
     display: inline-block;
@@ -47,7 +47,7 @@
     height: 40px;
 }
 .logo {
-    padding: $pad20;
+    padding: 20px;
 }
 
 //main
@@ -109,8 +109,7 @@
     padding: 20px;
 }
 svg {
-    width: $footerWidhtM;
-    height: $footerHeightM;
+    @include footerTamaño(25px,25px);
 }
 .row {
     margin-left: 0px;

@@ -7,16 +7,25 @@
     font-family: "monk";
     src: url(../assets/fuentes/Monk-Gothic.ttf);
 }
-$colorLectura: #FCEAD4;
-$amarillo: #F8B133;
-$negro: black;
-$tipoLectura: "rosario";
-$tipoDisplay: "monk";
-$pad20: 20px;
-$footerWidhtD: 40px;
-$footerHeightD: 40px;
-$footerWidhtM: 25px;
-$footerHeightM: 25px;
+$paletaColores: (
+    lectura: #FCEAD4,
+    amarillo: #F8B133,
+    negro: black,
+);
+$tipografias: (
+    lectura: "rosario",
+    display: "monk",
+);
+@mixin footerTamaño ($widht, $height) {
+    width: $widht;
+    height: $height;
+}
+$footerTamaño: (
+    widhtD: 40px,
+    heightD: 40px,
+    widhtM: 25px,
+    heightM: 25px,
+);
 
 .animacionNav {
     transition: all 1s;

@@ -1,8 +1,10 @@
 .tituloANH {
-    color: #F8B133;
+    display: flex;
+    justify-content: center;
+    color: map-get($paletaColores,amarillo);
     text-align: center;
     font-size: 150pt;
-    font-family: $tipoDisplay;
+    font-family: map-get($tipografias,display);
     font-kerning: none;
     font-weight: normal;
     margin: 20px;
@@ -12,8 +14,8 @@
 .flexCancion {
     text-transform: uppercase;
     font-size: 30px;
-    font-family: $tipoLectura;
-    color: $colorLectura;
+    font-family: map-get($tipografias,lectura);
+    color: map-get($paletaColores,lectura);
     width: 100%;
     height: auto;
 }
@@ -61,6 +63,7 @@
     justify-content: center;
     width: auto;
     height: auto;
+    margin-bottom: 25px;
 }
 
 .epigrafeFlex {
@@ -71,6 +74,89 @@
 .epigrafeIndex {
     width: 560px;
     text-align: center;
-    color: $colorLectura;
-    font-family: $tipoLectura
+    color: map-get($paletaColores,lectura);
+    font-family: map-get($tipografias,lectura)
+}
+main {
+    padding-bottom: 821px;
+}
+.tituloBio {
+@extend .tituloANH;
+    margin: 80px;
+}
+.textoFlex {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.textoUno {
+    display: flex;
+    width: 675px;
+    padding: 20px;
+    line-height: 30px;
+    margin-block-end: 90px;
+    color: map-get($paletaColores,lectura);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textoDos {
+@extend .textoUno
+}
+.textoTres {
+@extend .textoUno
+}
+.colorParado {
+    color: map-get($paletaColores,amarillo);
+}
+/*------------------------EL MAL QUERER-------------------------*/
+.tituloEMQ {
+    @extend .tituloANH;
+    margin: 80px;
+}
+.epigrafeEMQ {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    color: map-get($paletaColores,lectura);
+    width: 469px;
+}
+
+.albumFlex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.cancionesTamaño {
+    width: 33%;
+    padding: 40px;
+}
+.tituloCancion {
+    display: flex;
+    justify-content: center;
+    color: map-get($paletaColores,lectura);
+    width: 100%;
+}
+.flexFooterEMQ {
+    margin-top: 120px;
+}
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padB {
+    padding-bottom: 50px;
+}
+/*------------------------VIDEOS-------------------------*/
+.videos {
+    margin-block-start: 870px;
+    margin-block-end: 120px;
+}
+.videosEspacio {
+    padding: 100px;
+}
+.padV {
+    padding-bottom: 100px;
 }

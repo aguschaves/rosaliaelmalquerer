@@ -1,7 +1,6 @@
 svg {
-    fill: $amarillo;
-    width: $footerWidhtD;
-    height: $footerHeightD
+    fill: map-get($paletaColores,amarillo);
+    @include footerTamaño(40px,40px);
 }
 .flexFooter {
     display: flex;
@@ -17,4 +16,15 @@ svg {
     align-items: space-around;
     justify-content: center;
     padding: 45px;
+}
+.footerBio {
+    margin-bottom: 34px;
+}
+.footerVid {
+    margin-top: -166px;
+    margin-bottom: 34px;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
