@@ -305,6 +305,8 @@ a:hover {
     grid-area: main; }
   footer {
     grid-area: footer; }
+  .parallax, .parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+    background-position-y: 70px; }
   .flexHeader {
     display: flex; }
   .container {
@@ -312,7 +314,7 @@ a:hover {
   .logo {
     justify-content: center;
     font-size: 40pt;
-    margin: -29px;
+    margin: 0px;
     padding: 10px; }
   .navbar-toggler {
     font-size: 9pt;

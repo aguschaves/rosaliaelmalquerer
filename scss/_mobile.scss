@@ -20,6 +20,9 @@
     footer {
         grid-area: footer;
     }
+.parallax {
+    background-position-y: 70px;
+}
 //nav
 .flexHeader {
     display: flex;
@@ -30,7 +33,7 @@
 .logo {
     justify-content: center;
     font-size: 40pt;
-    margin: -29px ;
+    margin: 0px ;
     padding: 10px;
 }
 .navbar-toggler {
