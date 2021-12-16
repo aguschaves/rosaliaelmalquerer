@@ -45,18 +45,26 @@
 <main>
 <!-- encabezado -->
 <div class="color__parada">
-    <h1 class="titulo__suscribirse">SUSCRIBIRSE</h1>
-    <h3 class= "epigrafe color__lectura" >Para recibir nuevas noticias acerca de Rosalia</h3>
+    <h1 class="tituloSus">Suscribirse</h1>
 </div>
-<section class="formulario">
+<section class="formulario d-flex justify-content-center align-items-center">
     <!-- formulario -->
-    <form action="">
-        <input class="rounded" type="text" placeholder="Nombre"> <br>
-        <input class="rounded" type="text" placeholder="Apellido"> <br>
-        <input class="rounded" type="text" placeholder="Mail"> <br>
-        <input  class="rounded"type="number" placeholder="Edad"> <br>
-        <textarea class="rounded" name="" id="" cols="30" rows="10" placeholder="Comentarios"></textarea><br>
-        <input class="rounded" class="input__color" type="submit" value="Enviar"> <input class="input__color" type="reset" value="Resetear">
+    <form action method="get">
+        <input class="formularioDatos" type="text" placeholder="Nombre">
+        <input class="formularioDatos" type="text" placeholder="E-mail">
+        <select class="formularioDatos" name="Pais" id="pais">
+            <option value="0"> Argentina</option>
+            <option value="1"> España</option>
+            <option value="2"> México</option>
+            <option value="3"> Estados Unidos</option>
+            <option value="4"> Inglaterra</option>
+            <option value="5"> Italia</option>
+            <option value="6"> Francia</option>
+            <option value="7"> Portugal</option>
+            <option value="8"> Otro</option>
+        </select>
+        <input class="formularioDatos" type="submit" value="Enviar"> 
+        <input class="formularioDatos" type="reset" value="Resetear">
     </form>
 </section>
 </main>

@@ -164,12 +164,35 @@ svg {
     margin-bottom: 18px;
 }
 // el mal querer
+.tituloEMQ {
+    margin-top: 35px;
+}
 .cancionesTamaño {
     width: 100%;
     padding: 40px;
 }
-.albumFlex {
-    width: 50%;
+.albumImagen {
+    width: 100%;
     padding: 20px;
+}
+.epigrafeEMQ {
+    margin-top: -17px;
+    margin-bottom: 60px;
+    width: 290px!important;
+    font-size: 12px;
+}
+.footerEMQ {
+    margin-top: -20px;
+}
+// videos
+.videos {
+    margin-block-start: 220px;
+    margin-block-end: 0px;
+}
+.videosEspacio {
+    padding: 20px;
+}
+.footerVid {
+    margin-bottom: 18px;
 }
 }

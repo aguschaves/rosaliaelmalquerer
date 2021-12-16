@@ -78,7 +78,7 @@ ul {
   color: #FCEAD4;
   font-size: 50pt; }
 
-.tituloANH, .tituloBio, .tituloEMQ {
+.tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
   display: flex;
   justify-content: center;
   color: #F8B133;
@@ -188,7 +188,7 @@ ul {
 .tituloEMQ {
   margin: 80px; }
 
-.epigrafeEMQ {
+.epigrafeEMQ, .epigrafeSus {
   margin-top: 20px;
   margin-bottom: 200px;
   color: #FCEAD4;
@@ -227,6 +227,44 @@ ul {
 
 .padV {
   padding-bottom: 100px; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 950px; }
+
+.formulario form {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
+
+.formularioDatos {
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  border-radius: 1.3em;
+  background-color: #F8B133;
+  border: 2px solid black;
+  font-family: "rosario";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  transition: all 1s; }
+
+.formularioDatos:hover {
+  background-color: #FCEAD4;
+  font-style: italic;
+  text-decoration: none;
+  border: none; }
+
+.tituloSus {
+  margin: 80px; }
 
 svg {
   fill: #F8B133;
@@ -300,7 +338,7 @@ a:hover {
     grid-template-rows: 0px 1570px 100px;
     grid-column-gap: 8px;
     grid-row-gap: 4px; }
-  .tituloANH, .tituloBio, .tituloEMQ {
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
     grid-area: titulo; }
   main {
     grid-area: main; }
@@ -336,7 +374,7 @@ a:hover {
     flex-direction: column !important;
     align-items: flex-start !important;
     padding: 10px; }
-  .tituloANH, .tituloBio, .tituloEMQ {
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
     font-size: 45pt;
     margin: 20px;
     margin-top: 150px; }
@@ -417,9 +455,25 @@ a:hover {
   .footerBio {
     margin-top: 200px;
     margin-bottom: 18px; }
+  .tituloEMQ {
+    margin-top: 35px; }
   .cancionesTamaño {
     width: 100%;
     padding: 40px; }
-  .albumFlex {
-    width: 50%;
-    padding: 20px; } }
+  .albumImagen {
+    width: 100%;
+    padding: 20px; }
+  .epigrafeEMQ, .epigrafeSus {
+    margin-top: -17px;
+    margin-bottom: 60px;
+    width: 290px !important;
+    font-size: 12px; }
+  .footerEMQ {
+    margin-top: -20px; }
+  .videos {
+    margin-block-start: 220px;
+    margin-block-end: 0px; }
+  .videosEspacio {
+    padding: 20px; }
+  .footerVid {
+    margin-bottom: 18px; } }
