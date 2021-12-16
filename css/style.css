@@ -332,21 +332,33 @@ a:hover {
   .flexCancion {
     font-size: 9pt; }
   .versoPosicion1 {
-    margin: 48px;
-    width: 342px; }
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 0px;
+    margin-left: 26px;
+    width: 337px; }
   .versoPosicion2 {
-    margin: 48px; }
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 120px;
+    margin-right: 0px;
+    width: 165px; }
   .versoPosicion3 {
-    display: flex;
-    height: auto;
-    justify-content: flex-start;
-    margin: 20px; }
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 16px;
+    margin-right: 0px;
+    width: 335px; }
   .versoPosicion4 {
     width: 353px;
-    margin: 48px; }
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 18px;
+    margin-right: 0px; }
   .versoPosicion5 {
-    margin: 48px;
-    width: 276px; }
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width: 251px; }
   .videpFlex {
     margin: 20px; }
   .flexVideo {

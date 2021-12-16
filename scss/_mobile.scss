@@ -59,25 +59,37 @@
     font-size: 9pt;
 }
 .versoPosicion1 {
-    margin: 48px;
-    width: 342px;
+    margin-top: map-get($marginCancion, arriba);
+    margin-bottom: map-get($marginCancion, abajo);
+    margin-right: 0px;
+    margin-left: 26px;
+    width: 337px;
 }
 .versoPosicion2 {
-    margin: 48px;
+    margin-top: map-get($marginCancion, arriba);
+    margin-bottom: map-get($marginCancion, abajo);
+    margin-left: 120px;
+    margin-right: 0px;
+    width: 165px;
 }
 .versoPosicion3 {
-    display: flex;
-    height: auto;
-    justify-content: flex-start;
-    margin: 20px;
+    margin-top: map-get($marginCancion, arriba);
+    margin-bottom: map-get($marginCancion, abajo);
+    margin-left: 16px;
+    margin-right: 0px;
+    width: 335px;
 }
 .versoPosicion4 {
     width: 353px;
-    margin: 48px;
+    margin-top: map-get($marginCancion, arriba);
+    margin-bottom: map-get($marginCancion, abajo);
+    margin-left: 18px;
+    margin-right: 0px;
 }
 .versoPosicion5 {
-    margin: 48px;
-    width: 276px;
+    margin-top: map-get($marginCancion, arriba);
+    margin-bottom: map-get($marginCancion, abajo);
+    width: 251px;
 }
 .videpFlex {
     margin: 20px;
