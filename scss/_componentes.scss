@@ -7,6 +7,10 @@
     font-family: "monk";
     src: url(../assets/fuentes/Monk-Gothic.ttf);
 }
+@font-face {
+    font-family: "old";
+    src: url(../assets/fuentes/Old.TTF);
+}
 $paletaColores: (
     lectura: #FCEAD4,
     amarillo: #F8B133,
@@ -34,4 +38,11 @@ $footerTamaño: (
 .animacionNav:hover {
     transform: translateY(20px);
     font-style: italic;
+}
+.animacionLogo {
+    transition: all 1s;
+}
+
+.animacionLogo:hover {
+    transform: translateY(20px);
 }

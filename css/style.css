@@ -23,12 +23,22 @@ footer {
   font-family: "monk";
   src: url(../assets/fuentes/Monk-Gothic.ttf); }
 
+@font-face {
+  font-family: "old";
+  src: url(../assets/fuentes/Old.TTF); }
+
 .animacionNav {
   transition: all 1s; }
 
 .animacionNav:hover {
   transform: translateY(20px);
   font-style: italic; }
+
+.animacionLogo {
+  transition: all 1s; }
+
+.animacionLogo:hover {
+  transform: translateY(20px); }
 
 ul {
   list-style-type: none; }
@@ -61,7 +71,12 @@ ul {
   justify-content: flex-start; }
 
 .marginTop {
-  margin-top: 32px; }
+  margin-top: 15px; }
+
+.logo {
+  font-family: "old";
+  color: #FCEAD4;
+  font-size: 50pt; }
 
 .tituloANH, .tituloBio, .tituloEMQ {
   display: flex;
@@ -73,7 +88,7 @@ ul {
   font-kerning: none;
   font-weight: normal;
   margin: 20px;
-  margin-top: 680px; }
+  margin-top: 733px; }
 
 /*cancion*/
 .flexCancion {
@@ -254,14 +269,16 @@ a:hover {
   color: #F8B133; }
 
 .parallax, .parallax__2, .parallax__3, .parallax__4, .parallax__5 {
-  background-image: url(../assets/imagenes/portada-inicio.jpg);
+  background-image: url(../assets/imagenes/portada.png);
   background-position-x: initial;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: auto; }
+  background-size: contain;
+  background-color: black;
+  width: 100%; }
 
 .parallax__2 {
-  background-image: url(../assets/imagenes/portada-biografia.jpg); }
+  background-image: url(../assets/imagenes/biografia.png);
+  background-position-y: bottom; }
 
 .parallax__3 {
   background-image: none;
@@ -271,7 +288,8 @@ a:hover {
   background-image: url(../assets/imagenes/portada-videos.jpg); }
 
 .parallax__5 {
-  background-image: url(../assets/imagenes/portada-suscribirse.jpg); }
+  background-image: url(../assets/imagenes/suscribirse.png);
+  background-position-y: bottom; }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .grilla {
@@ -293,8 +311,8 @@ a:hover {
     padding: 0px; }
   .logo {
     justify-content: center;
-    width: 400px;
-    margin: 0px;
+    font-size: 40pt;
+    margin: -29px;
     padding: 10px; }
   .navbar-toggler {
     font-size: 9pt;
@@ -303,10 +321,8 @@ a:hover {
     background-color: #F8B133 !important; }
   .navbar-toggler-icon {
     display: inline-block;
-    width: 40px;
-    height: 40px; }
-  .logo {
-    padding: 20px; }
+    width: 30px;
+    height: 30px; }
   .tituloANH, .tituloBio, .tituloEMQ {
     font-size: 54pt;
     margin: 20px;

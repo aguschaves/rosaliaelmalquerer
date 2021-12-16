@@ -31,5 +31,10 @@ ul {
         justify-content: flex-start;
     }
 .marginTop {
-    margin-top: 32px;
+    margin-top: 15px;
+}
+.logo {
+    font-family: "old";
+    color: map-get($paletaColores,lectura);
+    font-size: 50pt;
 }

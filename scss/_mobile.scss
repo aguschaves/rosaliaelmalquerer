@@ -20,7 +20,6 @@
     footer {
         grid-area: footer;
     }
-
 //nav
 .flexHeader {
     display: flex;
@@ -30,8 +29,8 @@
 }
 .logo {
     justify-content: center;
-    width: 400px;
-    margin: 0px ;
+    font-size: 40pt;
+    margin: -29px ;
     padding: 10px;
 }
 .navbar-toggler {
@@ -43,11 +42,8 @@
 }
 .navbar-toggler-icon {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-.logo {
-    padding: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 //main

@@ -19,15 +19,17 @@ a:hover {
 }
 //padding
 .parallax {
-    background-image: url(../assets/imagenes/portada-inicio.jpg);
+    background-image: url(../assets/imagenes/portada.png);
     background-position-x: initial;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
+    background-size: contain;
+    background-color: black;
+    width: 100%;
 }
 .parallax__2 {
     @extend .parallax;
-    background-image: url(../assets/imagenes/portada-biografia.jpg);
+    background-image: url(../assets/imagenes/biografia.png);
+    background-position-y: bottom
 }
 .parallax__3 {
     @extend .parallax;
@@ -40,6 +42,7 @@ a:hover {
 }
 .parallax__5 {
     @extend .parallax;
-    background-image: url(../assets/imagenes/portada-suscribirse.jpg)
+    background-image: url(../assets/imagenes/suscribirse.png);
+    background-position-y: bottom;
 }
 @import "mobile";
