@@ -7,7 +7,7 @@
         "main main main"
         "footer footer footer";
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0px 1725px 150px;
+        grid-template-rows: 0px 1570px 100px;
         grid-column-gap: 8px;
         grid-row-gap: 4px; 
     } 
@@ -48,12 +48,24 @@
     width: 30px;
     height: 30px;
 }
-
+.nav-item {
+    font-size: 12pt;
+}
+.barraNavIzq {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 10px;
+}
+.barraNavDer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 10px;
+}
 //main
 .tituloANH {
-    font-size: 54pt;
+    font-size: 45pt;
     margin: 20px;
-    margin-top: 225px;
+    margin-top: 150px;
 }
 .flexCancion {
     font-size: 9pt;
@@ -96,12 +108,11 @@
 }
 .flexVideo {
     padding: 40px;
-}
-.epigrafeFlex {
-    width: 376px;
+    margin-bottom: -20px;
 }
 .epigrafeIndex {
-    width: 315px;
+    width: 280px;
+    font-size: 12px;
     }
 //footer
 .flexFooter {
@@ -109,7 +120,7 @@
     align-content: space-between;
     justify-content: center;
     height: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 200px;
     width: 100%;
 }
@@ -124,5 +135,41 @@ svg {
 }
 .row {
     margin-left: 0px;
+}
+// biografia 
+.parallax__2 {
+    background-position-y: 1872px;
+}
+.tituloBio {
+    font-size: 44pt;
+    margin: 20px;
+    margin-top: 35px;
+}
+.textoFlex {
+    font-size: 12pt;
+}
+.textoUno {
+    display: flex;
+    width: 370px;
+    padding: 15px;
+    line-height: 30px;
+    margin-block-end: 0px;
+    color: map-get($paletaColores,lectura);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerBio {
+    margin-top: 200px;
+    margin-bottom: 18px;
+}
+// el mal querer
+.cancionesTamaño {
+    width: 100%;
+    padding: 40px;
+}
+.albumFlex {
+    width: 50%;
+    padding: 20px;
 }
 }
