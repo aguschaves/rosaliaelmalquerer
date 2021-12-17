@@ -99,7 +99,8 @@
     line-height: 30px;
     margin-block-end: 90px;
     color: map-get($paletaColores,lectura);
-    text-align: center;
+    font-family: map-get($tipografias, lectura);
+    text-align: left;
     justify-content: center;
     flex-direction: column;
 }
