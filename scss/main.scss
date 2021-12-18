@@ -22,10 +22,10 @@ a:hover {
     background-image: url(../assets/imagenes/portada.png);
     background-position-x: initial;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
+    background-size: cover; 
     width: 100%;
 }
+@import "mobile";
 .parallax__2 {
     @extend .parallax;
     background-image: url(../assets/imagenes/biografia.png);
@@ -33,16 +33,14 @@ a:hover {
 }
 .parallax__3 {
     @extend .parallax;
-    background-image: none;
-    background-color: black
+    background-image: url(../assets/imagenes/elmalquerer.png);
 }
 .parallax__4 {
     @extend .parallax;
-    background-image: url(../assets/imagenes/portada-videos.jpg);
+    background-image: url(../assets/imagenes/videos.png);
 }
 .parallax__5 {
     @extend .parallax;
     background-image: url(../assets/imagenes/suscribirse.png);
     background-position-y: bottom;
 }
-@import "mobile";

@@ -248,14 +248,11 @@ ul {
   flex-direction: column; }
 
 .formularioDatos {
-  margin-bottom: 3%;
-  padding-bottom: 3%;
-  padding-top: 3%;
-  padding-left: 6%;
-  padding-right: 6%;
+  margin: 10px;
+  padding: 20px;
   border-radius: 1.3em;
   background-color: #F8B133;
-  border: 2px solid black;
+  border: #F8B133;
   font-family: "rosario";
   font-weight: 400;
   font-style: normal;
@@ -316,23 +313,7 @@ a:hover {
   background-position-x: initial;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
   width: 100%; }
-
-.parallax__2 {
-  background-image: url(../assets/imagenes/biografia.png);
-  background-position-y: bottom; }
-
-.parallax__3 {
-  background-image: none;
-  background-color: black; }
-
-.parallax__4 {
-  background-image: url(../assets/imagenes/portada-videos.jpg); }
-
-.parallax__5 {
-  background-image: url(../assets/imagenes/suscribirse.png);
-  background-position-y: bottom; }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .grilla {
@@ -481,3 +462,17 @@ a:hover {
     padding: 20px; }
   .footerVid {
     margin-bottom: 18px; } }
+
+.parallax__2 {
+  background-image: url(../assets/imagenes/biografia.png);
+  background-position-y: bottom; }
+
+.parallax__3 {
+  background-image: url(../assets/imagenes/elmalquerer.png); }
+
+.parallax__4 {
+  background-image: url(../assets/imagenes/videos.png); }
+
+.parallax__5 {
+  background-image: url(../assets/imagenes/suscribirse.png);
+  background-position-y: bottom; }
