@@ -315,6 +315,20 @@ a:hover {
   background-size: cover;
   width: 100%; }
 
+.parallax__2 {
+  background-image: url(../assets/imagenes/biografia.png);
+  background-position-y: bottom; }
+
+.parallax__3 {
+  background-image: url(../assets/imagenes/elmalquerer.png); }
+
+.parallax__4 {
+  background-image: url(../assets/imagenes/videos.png); }
+
+.parallax__5 {
+  background-image: url(../assets/imagenes/suscribirse.png);
+  background-position-y: bottom; }
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .grilla {
     display: grid;
@@ -420,7 +434,7 @@ a:hover {
   .row {
     margin-left: 0px; }
   .parallax__2 {
-    background-position-y: 1872px; }
+    background-image: url(../assets/imagenes/portadaBM.png); }
   .tituloBio {
     font-size: 44pt;
     margin: 20px;
@@ -462,17 +476,3 @@ a:hover {
     padding: 20px; }
   .footerVid {
     margin-bottom: 18px; } }
-
-.parallax__2 {
-  background-image: url(../assets/imagenes/biografia.png);
-  background-position-y: bottom; }
-
-.parallax__3 {
-  background-image: url(../assets/imagenes/elmalquerer.png); }
-
-.parallax__4 {
-  background-image: url(../assets/imagenes/videos.png); }
-
-.parallax__5 {
-  background-image: url(../assets/imagenes/suscribirse.png);
-  background-position-y: bottom; }

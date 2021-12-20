@@ -25,7 +25,6 @@ a:hover {
     background-size: cover; 
     width: 100%;
 }
-@import "mobile";
 .parallax__2 {
     @extend .parallax;
     background-image: url(../assets/imagenes/biografia.png);
@@ -44,3 +43,4 @@ a:hover {
     background-image: url(../assets/imagenes/suscribirse.png);
     background-position-y: bottom;
 }
+@import "mobile";
