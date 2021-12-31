@@ -51,31 +51,9 @@
     justify-content: flex-end;
     margin: 96px;
 }
-//video y epigrafe
-.videpFlex {
-    display: flex;
-    margin: 150px;
-    flex-direction: column;
-}
-
-.flexVideo {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    margin-bottom: 25px;
-}
-
 .epigrafeFlex {
     display: flex;
     justify-content: center;
-}
-
-.epigrafeIndex {
-    width: 560px;
-    text-align: center;
-    color: map-get($paletaColores,lectura);
-    font-family: map-get($tipografias,lectura)
 }
 .mainIndex {
     padding-bottom: 821px;

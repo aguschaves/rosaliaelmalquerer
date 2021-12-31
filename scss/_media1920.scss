@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1920px){
+    .grilla {
+        grid-template-rows:4740px 100px;
+    }
+    // margen de la nav + logo con el exterior
+    .navMargin {
+        margin-top: 50px;
+    }
+    // margen de las paginas con el logo
+    .marginTop {
+        margin-top: 30px;
+    }
+    .logo {
+        font-size: 52pt;
+    }
+    .barraNavIzq {
+        font-size: 22pt;
+    }
+    .barraNavDer {
+        font-size: 22pt;
+    }
+    // titulo "a ningún hombre"
+    .tituloANH {
+        margin-top: 1040px;
+    }
+    // cancion
+    .flexCancion {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .versoPosicion1 {
+        margin: 160px;
+        margin-left: 160px;
+    }
+    .versoPosicion2 {
+        margin: 160px;
+    }
+    .versoPosicion3 {
+        margin: 84px;
+    }
+    .versoPosicion4 {
+        margin: 160px;
+        margin-left: 590px;
+    }
+    .versoPosicion5 {
+        margin: 160px;
+    }
+}

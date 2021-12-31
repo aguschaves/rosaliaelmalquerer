@@ -70,10 +70,6 @@ ul {
 .navbar {
   width: 100%; }
 
-.nazIzq {
-  display: flex;
-  justify-content: flex-start; }
-
 .marginTop {
   margin-top: 15px; }
 
@@ -135,27 +131,9 @@ ul {
   justify-content: flex-end;
   margin: 96px; }
 
-.videpFlex {
-  display: flex;
-  margin: 150px;
-  flex-direction: column; }
-
-.flexVideo {
-  display: flex;
-  justify-content: center;
-  width: auto;
-  height: auto;
-  margin-bottom: 25px; }
-
 .epigrafeFlex {
   display: flex;
   justify-content: center; }
-
-.epigrafeIndex {
-  width: 560px;
-  text-align: center;
-  color: #FCEAD4;
-  font-family: "rosario"; }
 
 .mainIndex {
   padding-bottom: 821px; }
@@ -480,3 +458,34 @@ a:hover {
     margin-bottom: 18px; }
   .parallax__5 {
     background-image: url(../assets/imagenes/portadaSM.png); } }
+
+@media only screen and (min-width: 1920px) {
+  .grilla {
+    grid-template-rows: 4740px 100px; }
+  .navMargin {
+    margin-top: 50px; }
+  .marginTop {
+    margin-top: 30px; }
+  .logo {
+    font-size: 52pt; }
+  .barraNavIzq {
+    font-size: 22pt; }
+  .barraNavDer {
+    font-size: 22pt; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    margin-top: 1040px; }
+  .flexCancion {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .versoPosicion1 {
+    margin: 160px;
+    margin-left: 160px; }
+  .versoPosicion2 {
+    margin: 160px; }
+  .versoPosicion3 {
+    margin: 84px; }
+  .versoPosicion4 {
+    margin: 160px;
+    margin-left: 590px; }
+  .versoPosicion5 {
+    margin: 160px; } }
