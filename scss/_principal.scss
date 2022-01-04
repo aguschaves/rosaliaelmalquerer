@@ -97,14 +97,9 @@ margin-bottom: 900px;
     @extend .tituloANH;
     margin: 80px;
 }
-.epigrafeEMQ {
-    margin-top: 20px;
-    margin-bottom: 200px;
-    color: map-get($paletaColores,lectura);
-    width: 469px;
-}
 .albumFlex {
     padding: 20px;
+    margin-bottom: 140px;
 }
 .cancionesTamaño {
     width: 33%;
@@ -136,6 +131,10 @@ margin-bottom: 900px;
 }
 .padV {
     padding-bottom: 100px;
+}
+.tamañoVideo {
+    width: 100%;
+    height: 500px;
 }
 // suscribirse 
 .formulario {
@@ -175,5 +174,8 @@ margin-bottom: 900px;
     margin: 80px
 }
 .epigrafeSus {
-    @extend .epigrafeEMQ
+    margin-top: 20px;
+    margin-bottom: 200px;
+    color: map-get($paletaColores,lectura);
+    width: 469px;
 }

@@ -1,4 +1,12 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
 /*grid*/
 .grilla {
   display: grid;
@@ -171,14 +179,9 @@ ul {
 .tituloEMQ {
   margin: 80px; }
 
-.epigrafeEMQ, .epigrafeSus {
-  margin-top: 20px;
-  margin-bottom: 200px;
-  color: #FCEAD4;
-  width: 469px; }
-
 .albumFlex {
-  padding: 20px; }
+  padding: 20px;
+  margin-bottom: 140px; }
 
 .cancionesTamaño {
   width: 33%;
@@ -210,6 +213,10 @@ ul {
 
 .padV {
   padding-bottom: 100px; }
+
+.tamañoVideo {
+  width: 100%;
+  height: 500px; }
 
 .formulario {
   display: flex;
@@ -244,6 +251,12 @@ ul {
 
 .tituloSus {
   margin: 80px; }
+
+.epigrafeSus {
+  margin-top: 20px;
+  margin-bottom: 200px;
+  color: #FCEAD4;
+  width: 469px; }
 
 svg {
   fill: #F8B133;
@@ -346,11 +359,15 @@ a:hover {
   .barraNavIzq {
     flex-direction: column !important;
     align-items: flex-start !important;
-    padding: 10px; }
+    padding: 10px;
+    margin-bottom: 0px; }
   .barraNavDer {
     flex-direction: column !important;
     align-items: flex-start !important;
-    padding: 10px; }
+    padding: 10px;
+    margin-top: -17px; }
+  .animacionNav:hover {
+    transform: none; }
   .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
     font-size: 45pt;
     margin: 20px;
@@ -432,6 +449,8 @@ a:hover {
   .footerBio {
     margin-top: 200px;
     margin-bottom: 18px; }
+  .parallax__3 {
+    background-image: url(../assets/imagenes/elmalquerer.png); }
   .tituloEMQ {
     margin-top: 35px; }
   .cancionesTamaño {
@@ -440,7 +459,7 @@ a:hover {
   .albumImagen {
     width: 100%;
     padding: 20px; }
-  .epigrafeEMQ, .epigrafeSus {
+  .epigrafeEMQ {
     margin-top: -17px;
     margin-bottom: 60px;
     width: 290px !important;
@@ -456,8 +475,17 @@ a:hover {
     padding: 20px; }
   .footerVid {
     margin-bottom: 18px; }
+  .tamañoVideo {
+    width: 100%;
+    height: 320px; }
   .parallax__5 {
-    background-image: url(../assets/imagenes/portadaSM.png); } }
+    background-image: url(../assets/imagenes/portadaSM.png); }
+  .tituloSus {
+    margin: 20px; }
+  .formulario {
+    margin-bottom: 245px; }
+  .formularioDatos {
+    font-size: 12pt; } }
 
 @media only screen and (min-width: 1920px) {
   .grilla {
@@ -488,4 +516,25 @@ a:hover {
     margin: 160px;
     margin-left: 590px; }
   .versoPosicion5 {
-    margin: 160px; } }
+    margin: 160px; }
+  .tituloBio {
+    margin: 20px; }
+  .textoFlex {
+    font-size: 25px; }
+  .textoUno, .textoDos, .textoTres {
+    line-height: 35px; }
+  .tituloEMQ {
+    margin: 50px; }
+  .albumImagen {
+    width: 840px; }
+  .containerEMQ {
+    margin: 20px; }
+  .videos {
+    margin-block-start: 1161px; }
+  .tamañoVideo {
+    width: 100%;
+    height: 530px; }
+  .tituloSus {
+    margin: 50px; }
+  .formulario {
+    margin-bottom: 1400px; } }
