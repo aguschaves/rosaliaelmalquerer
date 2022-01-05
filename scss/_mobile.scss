@@ -1,5 +1,5 @@
 //vista mobile
-@media only screen and (min-width: 0px) and (max-width: 768px){
+@media only screen and (min-width: 360px) and (max-width: 600px){
     .grilla {
         display: grid;
         grid-template-areas: 
@@ -151,11 +151,11 @@ svg {
     margin-top: 35px;
 }
 .textoFlex {
-    font-size: 12pt;
+    font-size: 18px;
 }
 .textoUno {
     display: flex;
-    width: 370px;
+    width: 395px;
     padding: 15px;
     line-height: 30px;
     margin-block-end: 0px;

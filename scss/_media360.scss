@@ -1,0 +1,36 @@
+@media only screen and (min-width: 0px) and (max-width: 360px){
+    .grilla {
+        grid-template-rows: 0px 1300px 100px;
+    }
+    .flexCancion {
+        font-size: 7pt;
+    }
+    .versoPosicion1 {
+        width: 280px;
+    }
+    .versoPosicion2 {
+        width: 127px;
+        margin-left: 90px;
+    }
+    .versoPosicion4 {
+        width: 265px;
+        margin-left: 81px;
+    }
+    .versoPosicion5 {
+        width: 164px;
+    }
+    // biografia
+    .tituloBio {
+        font-size: 40pt;
+    }
+    .textoFlex {
+        font-size: 16px;
+    }
+    .textoUno {
+        width: 351px;
+    }
+    // videos
+    .videos {
+        margin-block-start: 148px;
+    }
+}

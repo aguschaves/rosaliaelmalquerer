@@ -146,6 +146,7 @@ ul {
 .mainIndex {
   padding-bottom: 821px; }
 
+/*------------------------BIOGRAFIA-------------------------*/
 .tituloBio {
   margin: 80px; }
 
@@ -320,7 +321,7 @@ a:hover {
   background-image: url(../assets/imagenes/suscribirse.png);
   background-position-y: bottom; }
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
   .grilla {
     display: grid;
     grid-template-areas: "titulo titulo titulo" "main main main" "footer footer footer";
@@ -435,10 +436,10 @@ a:hover {
     margin: 20px;
     margin-top: 35px; }
   .textoFlex {
-    font-size: 12pt; }
+    font-size: 18px; }
   .textoUno, .textoDos, .textoTres {
     display: flex;
-    width: 370px;
+    width: 395px;
     padding: 15px;
     line-height: 30px;
     margin-block-end: 0px;
@@ -486,6 +487,44 @@ a:hover {
     margin-bottom: 245px; }
   .formularioDatos {
     font-size: 12pt; } }
+
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+  .grilla {
+    grid-template-rows: 0px 1300px 100px; }
+  .flexCancion {
+    font-size: 7pt; }
+  .versoPosicion1 {
+    width: 280px; }
+  .versoPosicion2 {
+    width: 127px;
+    margin-left: 90px; }
+  .versoPosicion4 {
+    width: 265px;
+    margin-left: 81px; }
+  .versoPosicion5 {
+    width: 164px; }
+  .tituloBio {
+    font-size: 40pt; }
+  .textoFlex {
+    font-size: 16px; }
+  .textoUno, .textoDos, .textoTres {
+    width: 351px; }
+  .videos {
+    margin-block-start: 148px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .grilla {
+    grid-template-rows: 0px 2300px 100px; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 70pt;
+    margin: 20px;
+    margin-top: 383px; }
+  .flexCancion {
+    font-size: 15pt; }
+  .versoPosicion1 {
+    width: 560px; }
+  .versoPosicion2 {
+    width: 353px; } }
 
 @media only screen and (min-width: 1920px) {
   .grilla {
