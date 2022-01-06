@@ -6,6 +6,7 @@
     border: none;
     outline: none;
 }
+@import "loader";
 @import "grid";
 //componentes principales
 @import "componentes";
@@ -54,5 +55,6 @@ a:hover {
 @import "media1920";
 @import "media1024";
 @import "media768";
+@import "media480";
 @import "mobile";
 @import "media360";
