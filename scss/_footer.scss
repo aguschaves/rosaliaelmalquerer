@@ -28,3 +28,10 @@ svg {
     margin-left: 0px;
     margin-right: 0px;
 }
+.animacionFooter {
+    transition: all 0.3s;
+}
+.animacionFooter:hover {
+    fill: map-get($paletaColores, lectura);
+    transform: translateY(5px);
+}

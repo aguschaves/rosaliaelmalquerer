@@ -9,8 +9,8 @@
 
 #preloader {
   background: black url(../assets/imagenes/loader.gif) no-repeat center center;
-  background-size: 10%;
-  height: 100vh;
+  background-size: 15%;
+  height: 100%;
   width: 100%;
   position: fixed;
   z-index: 100; }
@@ -301,6 +301,13 @@ svg {
 .row {
   margin-left: 0px;
   margin-right: 0px; }
+
+.animacionFooter {
+  transition: all 0.3s; }
+
+.animacionFooter:hover {
+  fill: #FCEAD4;
+  transform: translateY(5px); }
 
 a.animacionNav {
   color: #F8B133; }
