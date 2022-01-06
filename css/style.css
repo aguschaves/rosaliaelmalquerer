@@ -10,7 +10,7 @@
 #preloader {
   background: black url(../assets/imagenes/loader.gif) no-repeat center center;
   background-size: 15%;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 100; }
@@ -525,9 +525,242 @@ a:hover {
     height: 50px; } }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .flexHeader {
+    display: flex; }
+  .container {
+    padding: 0px; }
+  .logo {
+    justify-content: center;
+    font-size: 40pt;
+    margin: 0px;
+    padding: 10px; }
+  .navbar-toggler {
+    font-size: 9pt;
+    background-color: transparent; }
+  .bg-light {
+    background-color: #F8B133 !important; }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px; }
+  .nav-item {
+    font-size: 12pt; }
+  .barraNavIzq {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 10px;
+    margin-bottom: 0px; }
+  .barraNavDer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 10px;
+    margin-top: -17px; }
+  .animacionNav:hover {
+    transform: none; }
+  .flexFooter {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    height: auto;
+    margin-top: 270px;
+    margin-bottom: 200px;
+    width: 100%; }
+  .redesWidth {
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    padding: 20px; }
+  svg {
+    width: 25px;
+    height: 25px; }
+  .parallax, .parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+    background-image: url(../assets/imagenes/portada2.png); }
   .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
     font-size: 50pt;
-    margin-top: 246px; } }
+    margin-top: 200px; }
+  .nav-item {
+    font-size: 10pt; }
+  .logo {
+    font-size: 40pt; }
+  .grilla {
+    grid-template-rows: 1332px 100px; }
+  .flexCancion {
+    font-size: 9pt; }
+  .versoPosicion1 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 0px;
+    margin-left: 40px;
+    width: 374px; }
+  .versoPosicion2 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 147px;
+    margin-right: 0px;
+    width: 185px; }
+  .versoPosicion3 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 16px;
+    margin-right: 0px;
+    width: 380px; }
+  .versoPosicion4 {
+    width: 372px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 96px;
+    margin-right: 0px; }
+  .versoPosicion5 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width: 245px; }
+  .parallax__2 {
+    background-image: url(../assets/imagenes/portadaBM.png); }
+  .tituloBio {
+    font-size: 44pt;
+    margin: 20px;
+    margin-top: 35px; }
+  .textoFlex {
+    font-size: 18px; }
+  .textoUno, .textoDos, .textoTres {
+    display: flex;
+    width: 395px;
+    padding: 15px;
+    line-height: 30px;
+    margin-block-end: 0px;
+    color: #FCEAD4;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column; }
+  .flexFooter {
+    margin-top: 270px;
+    margin-bottom: 18px; }
+  .footerBio {
+    margin-bottom: 18px; }
+  .parallax__3 {
+    background-image: url(../assets/imagenes/elmalquerer.png); }
+  .tituloEMQ {
+    font-size: 44pt;
+    margin: 20px;
+    margin-top: 35px; }
+  .cancionesTamaño {
+    width: 100%;
+    padding: 40px; }
+  .albumImagen {
+    width: 100%;
+    padding: 20px; }
+  .repSpotify {
+    width: 400px; }
+  .epigrafeEMQ {
+    margin-top: -17px;
+    margin-bottom: 60px;
+    width: 290px !important;
+    font-size: 12px; }
+  .footerEMQ {
+    margin-top: -20px; }
+  .parallax__4 {
+    background-image: url(../assets/imagenes/portadaVM.png); }
+  .videos {
+    margin-block-start: 300px;
+    margin-block-end: 0px; }
+  .videosEspacio {
+    padding: 45px; }
+  .footerVid {
+    margin-bottom: 18px;
+    margin-top: -84px; }
+  .tamañoVideo {
+    width: 100%;
+    height: 320px; }
+  .parallax__5 {
+    background-image: url(../assets/imagenes/portadaSM.png); }
+  .tituloSus {
+    margin: 20px; }
+  .formulario {
+    margin-bottom: 450px; }
+  .formularioDatos {
+    margin: 12px;
+    padding: 20px;
+    font-size: 12pt; } }
+
+@media only screen and (min-width: 580px) and (max-width: 679px) {
+  .nav-item {
+    font-size: 16px; }
+  .grilla {
+    grid-template-rows: 1380px 355px; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 65pt;
+    margin-top: 265px; }
+  .flexCancion {
+    font-size: 11pt; }
+  .versoPosicion1 {
+    width: 420px; }
+  .versoPosicion2 {
+    width: 200px;
+    margin-left: 180px; }
+  .versoPosicion3 {
+    width: 448px; }
+  .versoPosicion4 {
+    width: 407px;
+    margin-left: 155px; }
+  .versoPosicion5 {
+    margin-left: 178px; }
+  .tituloBio, .tituloEMQ, .tituloSus {
+    margin-top: 39px; }
+  .textoFlex {
+    font-size: 20px; }
+  .textoUno, .textoDos, .textoTres {
+    width: 493px; }
+  .footerBio {
+    margin-top: 360px; }
+  .repSpotify {
+    width: 498px; }
+  .videos {
+    margin-block-end: 367px; }
+  .footerVid {
+    margin-top: -378px; }
+  .formulario {
+    margin-bottom: 801px; } }
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  .grilla {
+    grid-template-rows: 1611px 355px; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 75pt;
+    margin-top: 317px; }
+  .flexCancion {
+    font-size: 13pt; }
+  .versoPosicion1 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 494px; }
+  .versoPosicion2 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 265px; }
+  .versoPosicion3 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 524px; }
+  .versoPosicion4 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 483px;
+    margin-left: 141px; }
+  .versoPosicion5 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 213px; }
+  .tituloBio, .tituloEMQ, .tituloSus {
+    margin-top: 26px; }
+  .footerBio {
+    margin-top: 386px;
+    margin-bottom: 12px; }
+  .parallax__4 {
+    background-position-y: -84px; }
+  .videos {
+    margin-block-start: 323px; }
+  .formulario {
+    margin-bottom: 834px; } }
 
 @media only screen and (min-width: 360px) and (max-width: 479px) {
   .grilla {

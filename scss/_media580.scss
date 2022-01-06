@@ -1,0 +1,61 @@
+@media only screen and (min-width: 580px) and (max-width: 679px){
+    .nav-item {
+        font-size: 16px;
+    }
+    .grilla {
+        grid-template-rows: 1380px 355px;
+    }
+    .tituloANH {
+        font-size: 65pt;
+        margin-top: 265px;
+    }
+    .flexCancion {
+        font-size: 11pt;
+    }
+    .versoPosicion1 {
+        width: 420px;
+    }
+    .versoPosicion2 {
+        width: 200px;
+        margin-left: 180px;
+    }
+    .versoPosicion3 {
+        width: 448px;
+    }
+    .versoPosicion4 {
+        width: 407px;
+        margin-left: 155px;
+    }
+    .versoPosicion5 {
+        margin-left: 178px;
+    }
+    // titulos BIO, EMQ Y SUS
+    .tituloBio, .tituloEMQ, .tituloSus {
+        margin-top: 39px;
+    }
+    // biografia 
+    .textoFlex {
+        font-size: 20px;
+    }
+    .textoUno {
+        width: 493px;
+    }
+    .footerBio {
+        margin-top: 360px;
+    }
+    // el mal querer 
+    .repSpotify {
+        width: 498px;
+    }
+    // videos
+    .videos {
+        margin-block-end: 367px;
+    }
+    .footerVid {
+        margin-top: -378px;
+    }
+    // suscribirse
+    .formulario {
+        margin-bottom: 801px;
+    }
+}

@@ -1,0 +1,58 @@
+@media only screen and (min-width: 640px) and (max-width: 767px){
+    .grilla {
+        grid-template-rows: 1611px 355px;
+    }
+    .tituloANH {
+        font-size: 75pt;
+        margin-top: 317px;
+    }
+    .flexCancion {
+        font-size: 13pt;
+    }
+    .versoPosicion1 {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        width: 494px;
+    }
+    .versoPosicion2 {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        width: 265px;
+    }
+    .versoPosicion3 {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        width: 524px;
+    }
+    .versoPosicion4 {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        width: 483px;
+        margin-left: 141px;
+    }
+    .versoPosicion5 {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        margin-left: 213px;
+    }
+    // titulo BIO, EMQ y SUS
+    .tituloBio, .tituloEMQ, .tituloSus {
+        margin-top: 26px;
+    }
+    // biografia 
+    .footerBio {
+        margin-top: 386px;
+        margin-bottom: 12px;
+    }
+    // videos
+    .parallax__4 {
+        background-position-y: -84px;
+    }
+    .videos {
+        margin-block-start: 323px;
+    }
+    // suscribirse 
+    .formulario {
+        margin-bottom: 834px;
+    }
+}
