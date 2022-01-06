@@ -1,5 +1,5 @@
 //vista mobile
-@media only screen and (min-width: 360px) and (max-width: 600px){
+@media only screen and (min-width: 360px) and (max-width: 768px){
     .grilla {
         display: grid;
         grid-template-areas: 
@@ -7,7 +7,7 @@
         "main main main"
         "footer footer footer";
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0px 1570px 100px;
+        grid-template-rows: 0px 1470px 100px;
         grid-column-gap: 8px;
         grid-row-gap: 4px; 
     } 
@@ -70,7 +70,7 @@
 .tituloANH {
     font-size: 45pt;
     margin: 20px;
-    margin-top: 150px;
+    margin-top: 190px;
 }
 .flexCancion {
     font-size: 9pt;
@@ -165,7 +165,7 @@ svg {
     flex-direction: column;
 }
 .footerBio {
-    margin-top: 200px;
+    margin-top: 260px;
     margin-bottom: 18px;
 }
 // el mal querer

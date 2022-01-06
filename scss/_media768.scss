@@ -1,0 +1,45 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .logo {
+        font-size: 50pt;
+        margin-top: -22px;
+    }
+    .navbar-toggler-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .nav-item {
+        font-size: 13pt;
+    }
+    // index
+    .parallax {
+        background-image: url(../assets/imagenes/portada.png);
+        background-size: contain;
+    }
+    .grilla {
+        grid-template-rows: 0px 2010px 100px;
+    }
+    .tituloANH {
+        font-size: 80pt;
+        margin: 20px;
+        margin-top: 353px;
+    }
+    .flexCancion {
+        font-size: 15pt;
+    }
+    .versoPosicion1 {
+        width: 560px;
+        margin-left: 52px;
+    }
+    .versoPosicion2 {
+        width: 536px;
+    }
+    .versoPosicion3 {
+        width: 555px;
+    }
+    .versoPosicion4 {
+        width: 733px;
+    }
+    .versoPosicion5 {
+        width: 500px;
+    }
+}

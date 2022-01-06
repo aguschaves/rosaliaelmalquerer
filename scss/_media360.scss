@@ -1,4 +1,7 @@
 @media only screen and (min-width: 0px) and (max-width: 360px){
+    .nav-item {
+        font-size: 10pt;
+    }
     .grilla {
         grid-template-rows: 0px 1300px 100px;
     }
@@ -28,6 +31,9 @@
     }
     .textoUno {
         width: 351px;
+    }
+    .footerBio {
+        margin-top: 212px;
     }
     // videos
     .videos {

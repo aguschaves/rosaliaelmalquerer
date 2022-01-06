@@ -321,12 +321,96 @@ a:hover {
   background-image: url(../assets/imagenes/suscribirse.png);
   background-position-y: bottom; }
 
-@media only screen and (min-width: 360px) and (max-width: 600px) {
+@media only screen and (min-width: 1920px) {
+  .grilla {
+    grid-template-rows: 4740px 100px; }
+  .navMargin {
+    margin-top: 50px; }
+  .marginTop {
+    margin-top: 30px; }
+  .logo {
+    font-size: 52pt; }
+  .barraNavIzq {
+    font-size: 22pt; }
+  .barraNavDer {
+    font-size: 22pt; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    margin-top: 1040px; }
+  .flexCancion {
+    font-size: 40px;
+    margin-bottom: 20px; }
+  .versoPosicion1 {
+    margin: 160px;
+    margin-left: 160px; }
+  .versoPosicion2 {
+    margin: 160px; }
+  .versoPosicion3 {
+    margin: 84px; }
+  .versoPosicion4 {
+    margin: 160px;
+    margin-left: 590px; }
+  .versoPosicion5 {
+    margin: 160px; }
+  .tituloBio {
+    margin: 20px; }
+  .textoFlex {
+    font-size: 25px; }
+  .textoUno, .textoDos, .textoTres {
+    line-height: 35px; }
+  .tituloEMQ {
+    margin: 50px; }
+  .albumImagen {
+    width: 840px; }
+  .containerEMQ {
+    margin: 20px; }
+  .videos {
+    margin-block-start: 1161px; }
+  .tamañoVideo {
+    width: 100%;
+    height: 530px; }
+  .tituloSus {
+    margin: 50px; }
+  .formulario {
+    margin-bottom: 1400px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    font-size: 50pt;
+    margin-top: -22px; }
+  .navbar-toggler-icon {
+    width: 40px;
+    height: 40px; }
+  .nav-item {
+    font-size: 13pt; }
+  .parallax, .parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+    background-image: url(../assets/imagenes/portada.png);
+    background-size: contain; }
+  .grilla {
+    grid-template-rows: 0px 2010px 100px; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 80pt;
+    margin: 20px;
+    margin-top: 353px; }
+  .flexCancion {
+    font-size: 15pt; }
+  .versoPosicion1 {
+    width: 560px;
+    margin-left: 52px; }
+  .versoPosicion2 {
+    width: 536px; }
+  .versoPosicion3 {
+    width: 555px; }
+  .versoPosicion4 {
+    width: 733px; }
+  .versoPosicion5 {
+    width: 500px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
   .grilla {
     display: grid;
     grid-template-areas: "titulo titulo titulo" "main main main" "footer footer footer";
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0px 1570px 100px;
+    grid-template-rows: 0px 1470px 100px;
     grid-column-gap: 8px;
     grid-row-gap: 4px; }
   .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
@@ -372,7 +456,7 @@ a:hover {
   .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
     font-size: 45pt;
     margin: 20px;
-    margin-top: 150px; }
+    margin-top: 190px; }
   .flexCancion {
     font-size: 9pt; }
   .versoPosicion1 {
@@ -448,7 +532,7 @@ a:hover {
     justify-content: center;
     flex-direction: column; }
   .footerBio {
-    margin-top: 200px;
+    margin-top: 260px;
     margin-bottom: 18px; }
   .parallax__3 {
     background-image: url(../assets/imagenes/elmalquerer.png); }
@@ -489,6 +573,8 @@ a:hover {
     font-size: 12pt; } }
 
 @media only screen and (min-width: 0px) and (max-width: 360px) {
+  .nav-item {
+    font-size: 10pt; }
   .grilla {
     grid-template-rows: 0px 1300px 100px; }
   .flexCancion {
@@ -509,71 +595,7 @@ a:hover {
     font-size: 16px; }
   .textoUno, .textoDos, .textoTres {
     width: 351px; }
+  .footerBio {
+    margin-top: 212px; }
   .videos {
     margin-block-start: 148px; } }
-
-@media only screen and (min-width: 600px) and (max-width: 800px) {
-  .grilla {
-    grid-template-rows: 0px 2300px 100px; }
-  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
-    font-size: 70pt;
-    margin: 20px;
-    margin-top: 383px; }
-  .flexCancion {
-    font-size: 15pt; }
-  .versoPosicion1 {
-    width: 560px; }
-  .versoPosicion2 {
-    width: 353px; } }
-
-@media only screen and (min-width: 1920px) {
-  .grilla {
-    grid-template-rows: 4740px 100px; }
-  .navMargin {
-    margin-top: 50px; }
-  .marginTop {
-    margin-top: 30px; }
-  .logo {
-    font-size: 52pt; }
-  .barraNavIzq {
-    font-size: 22pt; }
-  .barraNavDer {
-    font-size: 22pt; }
-  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
-    margin-top: 1040px; }
-  .flexCancion {
-    font-size: 40px;
-    margin-bottom: 20px; }
-  .versoPosicion1 {
-    margin: 160px;
-    margin-left: 160px; }
-  .versoPosicion2 {
-    margin: 160px; }
-  .versoPosicion3 {
-    margin: 84px; }
-  .versoPosicion4 {
-    margin: 160px;
-    margin-left: 590px; }
-  .versoPosicion5 {
-    margin: 160px; }
-  .tituloBio {
-    margin: 20px; }
-  .textoFlex {
-    font-size: 25px; }
-  .textoUno, .textoDos, .textoTres {
-    line-height: 35px; }
-  .tituloEMQ {
-    margin: 50px; }
-  .albumImagen {
-    width: 840px; }
-  .containerEMQ {
-    margin: 20px; }
-  .videos {
-    margin-block-start: 1161px; }
-  .tamañoVideo {
-    width: 100%;
-    height: 530px; }
-  .tituloSus {
-    margin: 50px; }
-  .formulario {
-    margin-bottom: 1400px; } }
