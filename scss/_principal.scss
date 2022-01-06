@@ -100,6 +100,10 @@ margin-bottom: 900px;
 }
 .albumFlex {
     padding: 20px;
+    margin-bottom: 25px;
+}
+.repSpotify {
+    width: 500px;
     margin-bottom: 140px;
 }
 .cancionesTamaño {
@@ -142,7 +146,7 @@ margin-bottom: 900px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 950px;
+    margin-bottom: 1060px;
 }
 .formulario form {
     width: 50%;
@@ -153,8 +157,8 @@ margin-bottom: 900px;
     flex-direction: column;
 }
 .formularioDatos {
-    margin: 10px;
-    padding: 20px;
+    margin: 22px;
+    padding: 25px;
     border-radius: 1.3em;
     background-color: map-get($paletaColores,amarillo);
     border: map-get($paletaColores,amarillo);

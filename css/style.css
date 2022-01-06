@@ -182,6 +182,10 @@ ul {
 
 .albumFlex {
   padding: 20px;
+  margin-bottom: 25px; }
+
+.repSpotify {
+  width: 500px;
   margin-bottom: 140px; }
 
 .cancionesTamaño {
@@ -223,7 +227,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 950px; }
+  margin-bottom: 1060px; }
 
 .formulario form {
   width: 50%;
@@ -234,8 +238,8 @@ ul {
   flex-direction: column; }
 
 .formularioDatos {
-  margin: 10px;
-  padding: 20px;
+  margin: 22px;
+  padding: 25px;
   border-radius: 1.3em;
   background-color: #F8B133;
   border: #F8B133;
@@ -361,6 +365,8 @@ a:hover {
     margin: 50px; }
   .albumImagen {
     width: 840px; }
+  .repSpotify {
+    width: 840px; }
   .containerEMQ {
     margin: 20px; }
   .videos {
@@ -371,9 +377,56 @@ a:hover {
   .tituloSus {
     margin: 50px; }
   .formulario {
-    margin-bottom: 1400px; } }
+    margin-bottom: 1400px; }
+  .formularioDatos {
+    font-size: 40px; } }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .parallax, .parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+    background-image: url(../assets/imagenes/portada2.png); }
+  .nav-item {
+    font-size: 13pt; }
+  .grilla {
+    grid-template-rows: 2817px 423px; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 120pt;
+    margin-top: 560px; }
+  .flexCancion {
+    font-size: 23px; }
+  .versoPosicion4 {
+    width: 890px; }
+  .versoPosicion5 {
+    width: 670px; }
+  .parallax__2 {
+    background-image: url(../assets/imagenes/portadaBM.png); }
+  .tituloBio {
+    font-size: 115pt;
+    margin-top: 76px; }
+  .textoFlex {
+    font-size: 18px; }
+  .textoUno, .textoDos, .textoTres {
+    width: 630px; }
+  .textoTres {
+    margin-bottom: 370px; }
+  .parallax__3 {
+    background-image: url(../assets/imagenes/elmalquerer.png); }
+  .tituloEMQ {
+    margin-top: 76px; }
+  .footerEMQ {
+    margin-top: 80px; }
+  .parallax__4 {
+    background-image: url(../assets/imagenes/portadaVM.png);
+    background-position-y: -128px; }
+  .videos {
+    margin-block-start: 650px; }
+  .parallax__5 {
+    background-image: url(../assets/imagenes/suscribirse.png); }
+  .tituloSus {
+    margin-top: 76px; }
+  .formulario {
+    margin-bottom: 754px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .logo {
     font-size: 50pt;
     margin-top: 20px; }
@@ -420,13 +473,41 @@ a:hover {
     margin-left: 86px; }
   .versoPosicion5 {
     width: 500px; }
+  .parallax__2 {
+    background-image: url(../assets/imagenes/portadaBM.png); }
+  .tituloBio {
+    margin-top: 40px; }
+  .textoUno, .textoDos, .textoTres {
+    width: 580px;
+    margin-block-end: 50px; }
+  .textoTres {
+    margin-bottom: 270px; }
   .parallax__3 {
     background-image: url(../assets/imagenes/elmalquerer.png);
     background-repeat: repeat; }
   .tituloEMQ {
     margin-top: 70px; }
   .cancionesTamaño {
-    width: 32%; } }
+    width: 32%; }
+  .parallax__4 {
+    background-image: url(../assets/imagenes/portadaVM.png); }
+  .videos {
+    margin-block-start: 542px; }
+  .videosEspacio {
+    padding: 40px; }
+  .tamañoVideo {
+    height: 410px; }
+  .parallax__5 {
+    background-image: url(../assets/imagenes/portadaSM.png); }
+  .tituloSus {
+    margin-top: 40px; }
+  .formulario {
+    margin-bottom: 680px; }
+  .formularioDatos {
+    font-size: 18px; }
+  svg {
+    width: 50px;
+    height: 50px; } }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .grilla {
@@ -567,6 +648,8 @@ a:hover {
   .albumImagen {
     width: 100%;
     padding: 20px; }
+  .repSpotify {
+    width: 334px; }
   .epigrafeEMQ {
     margin-top: -17px;
     margin-bottom: 60px;
@@ -591,8 +674,10 @@ a:hover {
   .tituloSus {
     margin: 20px; }
   .formulario {
-    margin-bottom: 245px; }
+    margin-bottom: 265px; }
   .formularioDatos {
+    margin: 12px;
+    padding: 20px;
     font-size: 12pt; } }
 
 @media only screen and (min-width: 0px) and (max-width: 360px) {
@@ -620,5 +705,11 @@ a:hover {
     width: 351px; }
   .footerBio {
     margin-top: 212px; }
+  .repSpotify {
+    width: 280px; }
   .videos {
-    margin-block-start: 148px; } }
+    margin-block-start: 148px; }
+  .formularioDatos {
+    margin: 10px;
+    padding: 15px;
+    font-size: 10pt; } }

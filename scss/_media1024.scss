@@ -1,0 +1,70 @@
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    // index
+.parallax {
+    background-image: url(../assets/imagenes/portada2.png);
+}
+.nav-item {
+    font-size: 13pt;
+}
+.grilla {
+    grid-template-rows: 2817px 423px;
+}
+.tituloANH {
+    font-size: 120pt;
+    margin-top: 560px;
+}
+.flexCancion {
+    font-size: 23px;
+}
+.versoPosicion4 {
+    width: 890px;
+}
+.versoPosicion5 {
+    width: 670px;
+}
+// biografia
+    .parallax__2 {
+        background-image: url(../assets/imagenes/portadaBM.png);
+    }
+    .tituloBio {
+        font-size: 115pt;
+        margin-top: 76px;
+    }
+    .textoFlex {
+        font-size: 18px;
+    }
+    .textoUno {
+        width: 630px;
+    }
+    .textoTres {
+        margin-bottom: 370px;
+    }
+// el mal querer 
+.parallax__3 {
+    background-image: url(../assets/imagenes/elmalquerer.png);
+}
+.tituloEMQ {
+    margin-top: 76px;
+}
+.footerEMQ {
+    margin-top: 80px;
+}
+// videos 
+.parallax__4 {
+    background-image: url(../assets/imagenes/portadaVM.png);
+    background-position-y: -128px;
+}
+.videos {
+    margin-block-start: 650px;
+}
+// suscribirse 
+.parallax__5 {
+    background-image: url(../assets/imagenes/suscribirse.png)
+}
+.tituloSus {
+    margin-top: 76px;
+}
+.formulario {
+    margin-bottom: 754px;
+}
+}
