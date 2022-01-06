@@ -1,45 +1,76 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .logo {
         font-size: 50pt;
-        margin-top: -22px;
+        margin-top: 20px;
     }
     .navbar-toggler-icon {
         width: 40px;
         height: 40px;
     }
+    .navbar-toggler {
+        font-size: 9pt;
+        background-color: transparent;
+    }
+    .bg-light {
+        background-color: map-get($paletaColores,amarillo)!important;
+    }
     .nav-item {
-        font-size: 13pt;
+        font-size: 18pt;
+    }
+    .barraNavIzq {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .barraNavDer {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 10px;
+        margin-top: -17px;
     }
     // index
     .parallax {
-        background-image: url(../assets/imagenes/portada.png);
-        background-size: contain;
+        background-image: url(../assets/imagenes/portadaM.png);
+        background-size: cover;
     }
     .grilla {
-        grid-template-rows: 0px 2010px 100px;
+        grid-template-rows: 2600px 430px;
     }
     .tituloANH {
         font-size: 80pt;
         margin: 20px;
-        margin-top: 353px;
+        margin-top: 470px;
     }
     .flexCancion {
-        font-size: 15pt;
+        font-size: 18pt;
     }
     .versoPosicion1 {
-        width: 560px;
+        width: 675px;
         margin-left: 52px;
     }
     .versoPosicion2 {
         width: 536px;
     }
     .versoPosicion3 {
-        width: 555px;
+        width: 668px;
     }
     .versoPosicion4 {
-        width: 733px;
+        width: 667px;
+        margin-left: 86px;
     }
     .versoPosicion5 {
         width: 500px;
+    }
+    // el mal querer 
+    .parallax__3 {
+        background-image: url(../assets/imagenes/elmalquerer.png);
+        background-repeat: repeat;
+    }
+    .tituloEMQ {
+        margin-top: 70px;
+    }
+    .cancionesTamaño {
+        width: 32%;
     }
 }
