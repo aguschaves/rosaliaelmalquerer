@@ -7,7 +7,7 @@
         "main main main"
         "footer footer footer";
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0px 1470px 100px;
+        grid-template-rows: 0px 1380px 100px;
         grid-column-gap: 8px;
         grid-row-gap: 4px; 
     } 
@@ -70,7 +70,7 @@
 .tituloANH {
     font-size: 45pt;
     margin: 20px;
-    margin-top: 190px;
+    margin-top: 125px;
 }
 .flexCancion {
     font-size: 9pt;
@@ -126,8 +126,11 @@
     justify-content: center;
     height: auto;
     margin-top: 25px;
-    margin-bottom: 200px;
     width: 100%;
+}
+.footerAutor {
+    font-size: 6pt;
+    padding-bottom: 10px;
 }
 .redesWidth {
     display: flex;
@@ -165,8 +168,8 @@ svg {
     flex-direction: column;
 }
 .footerBio {
-    margin-top: 260px;
-    margin-bottom: 18px;
+    margin-top: 202px;
+    margin-bottom: -15px;
 }
 // el mal querer
 .parallax__3 {
@@ -207,7 +210,7 @@ svg {
     padding: 20px;
 }
 .footerVid {
-    margin-bottom: 18px;
+    margin-bottom: -12px;
 }
 .tamañoVideo {
     width: 100%;

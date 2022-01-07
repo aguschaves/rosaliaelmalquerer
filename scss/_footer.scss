@@ -8,7 +8,7 @@ svg {
     justify-content: center;
     height: auto;
     margin-top: 280px;
-    margin-bottom: 250px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .redesWidth {
@@ -34,4 +34,14 @@ svg {
 .animacionFooter:hover {
     fill: map-get($paletaColores, lectura);
     transform: translateY(5px);
+}
+.footerAutor {
+    color: map-get($paletaColores, amarillo);
+    font-family: map-get($tipografias, lectura);
+    padding: 20px;
+    font-style: italic;
+}
+.footerSl {
+    text-align: center;
+    width: 100%;
 }
