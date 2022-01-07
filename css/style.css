@@ -665,11 +665,6 @@ a:hover {
     padding: 20px; }
   .repSpotify {
     width: 400px; }
-  .epigrafeEMQ {
-    margin-top: -17px;
-    margin-bottom: 60px;
-    width: 290px !important;
-    font-size: 12px; }
   .footerEMQ {
     margin-top: -20px; }
   .parallax__4 {
@@ -919,11 +914,6 @@ a:hover {
     padding: 20px; }
   .repSpotify {
     width: 334px; }
-  .epigrafeEMQ {
-    margin-top: -17px;
-    margin-bottom: 60px;
-    width: 290px !important;
-    font-size: 12px; }
   .footerEMQ {
     margin-top: -20px; }
   .parallax__4 {
@@ -949,7 +939,7 @@ a:hover {
     padding: 20px;
     font-size: 12pt; } }
 
-@media only screen and (min-width: 0px) and (max-width: 360px) {
+@media only screen and (min-width: 320px) and (max-width: 360px) {
   .nav-item {
     font-size: 10pt; }
   .grilla {
@@ -983,4 +973,123 @@ a:hover {
   .formularioDatos {
     margin: 10px;
     padding: 15px;
+    font-size: 10pt; } }
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .parallax, .parallax__2, .parallax__3, .parallax__4, .parallax__5 {
+    background-image: url(../assets/imagenes/portadaM.png); }
+  .logo {
+    font-size: 25pt; }
+  .navbar-toggler {
+    font-size: 9pt;
+    background-color: transparent; }
+  .bg-light {
+    background-color: #F8B133 !important; }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px; }
+  .nav-item {
+    font-size: 10pt; }
+  .barraNavIzq {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 10px;
+    margin-bottom: 0px; }
+  .barraNavDer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 10px;
+    margin-top: -17px; }
+  .animacionNav:hover {
+    transform: none; }
+  .grilla {
+    grid-template-rows: 1072px 100px; }
+  .tituloANH, .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 40pt;
+    margin-top: 104px; }
+  .versoPosicion1, .versoPosicion2, .versoPosicion4, .versoPosicion5 {
+    margin: 38px; }
+  .versoPosicion2 {
+    margin-left: 90px; }
+  .versoPosicion4 {
+    margin-left: 45px; }
+  .versoPosicion5 {
+    margin-left: 86px; }
+  .flexFooter {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    height: auto;
+    margin-top: 25px;
+    width: 100%; }
+  .footerAutor {
+    font-size: 6pt;
+    padding-bottom: 10px; }
+  .redesWidth {
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    padding: 13px; }
+  svg {
+    width: 20px;
+    height: 20px; }
+  .row {
+    margin-left: 0px; }
+  .parallax__2 {
+    background-image: url(../assets/imagenes/portadaBM.png); }
+  .tituloBio, .tituloEMQ, .tituloSus {
+    font-size: 35pt;
+    margin: 20px;
+    margin-top: 35px; }
+  .textoFlex {
+    font-size: 15px; }
+  .textoUno, .textoDos, .textoTres {
+    display: flex;
+    width: 314px;
+    padding: 15px;
+    line-height: 25px;
+    margin-block-end: 0px;
+    text-align: center; }
+  .footerBio {
+    margin-top: 162px;
+    margin-bottom: -27px; }
+  .parallax__3 {
+    background-image: url(../assets/imagenes/elmalquerer.png); }
+  .tituloEMQ {
+    margin-top: 35px; }
+  .cancionesTamaño {
+    width: 100%;
+    padding: 40px; }
+  .albumImagen {
+    width: 100%;
+    padding: 20px; }
+  .repSpotify {
+    width: 240px;
+    margin-bottom: 64px; }
+  .footerEMQ {
+    margin-top: -35px;
+    margin-bottom: -15px; }
+  .parallax__4 {
+    background-image: url(../assets/imagenes/portadaVM.png); }
+  .videos {
+    margin-block-start: 180px;
+    margin-block-end: 0px; }
+  .videosEspacio {
+    padding: 20px; }
+  .footerVid {
+    margin-top: -100px;
+    margin-bottom: -12px; }
+  .tamañoVideo {
+    width: 100%;
+    height: 220px; }
+  .parallax__5 {
+    background-image: url(../assets/imagenes/portadaSM.png); }
+  .tituloSus {
+    margin: 20px; }
+  .formulario {
+    margin-bottom: 265px; }
+  .formularioDatos {
+    margin: 10px;
+    padding: 14px;
     font-size: 10pt; } }
